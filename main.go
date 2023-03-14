@@ -17,7 +17,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(nodes[0])
+	fmt.Println(nodes)
 }
 
 func parsePackageTree(folder string, nodes *[]Node) (err error) {
