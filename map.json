@@ -1,0 +1,8578 @@
+[
+  {
+    "package_name": "accountsservice",
+    "dependencies": [
+      "glib2",
+      "polkit",
+      "systemd",
+      "shadow",
+      "libxcrypt",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libsystemd.so",
+      "libcrypt.so"
+    ]
+  },
+  {
+    "package_name": "acl"
+  },
+  {
+    "package_name": "acpi",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "acpid",
+    "dependencies": [
+      "bash"
+    ]
+  },
+  {
+    "package_name": "adapta-maia-theme"
+  },
+  {
+    "package_name": "adobe-source-code-pro-fonts"
+  },
+  {
+    "package_name": "adwaita-cursors"
+  },
+  {
+    "package_name": "adwaita-icon-theme",
+    "dependencies": [
+      "hicolor-icon-theme",
+      "gtk-update-icon-cache",
+      "librsvg",
+      "adwaita-cursors"
+    ]
+  },
+  {
+    "package_name": "alacritty",
+    "dependencies": [
+      "freetype2",
+      "fontconfig",
+      "libxi",
+      "libxcursor",
+      "libxkbcommon",
+      "libxrandr"
+    ]
+  },
+  {
+    "package_name": "alsa-firmware"
+  },
+  {
+    "package_name": "alsa-lib",
+    "dependencies": [
+      "glibc",
+      "alsa-topology-conf",
+      "alsa-ucm-conf"
+    ]
+  },
+  {
+    "package_name": "alsa-oss",
+    "dependencies": [
+      "glibc",
+      "libasound.so"
+    ]
+  },
+  {
+    "package_name": "alsa-plugins",
+    "dependencies": [
+      "glibc",
+      "libasound.so"
+    ]
+  },
+  {
+    "package_name": "alsa-topology-conf"
+  },
+  {
+    "package_name": "alsa-ucm-conf"
+  },
+  {
+    "package_name": "alsa-utils",
+    "dependencies": [
+      "glibc",
+      "pciutils",
+      "psmisc",
+      "libasound.so",
+      "libatopology.so",
+      "libformw.so",
+      "libmenuw.so",
+      "libncursesw.so",
+      "libpanelw.so",
+      "libsamplerate.so"
+    ]
+  },
+  {
+    "package_name": "amtk",
+    "dependencies": [
+      "gtk3",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libgtk-3.so"
+    ]
+  },
+  {
+    "package_name": "ansible",
+    "dependencies": [
+      "python",
+      "ansible-core"
+    ]
+  },
+  {
+    "package_name": "ansible-core",
+    "dependencies": [
+      "python",
+      "python-cryptography",
+      "python-jinja",
+      "python-packaging",
+      "python-pyyaml",
+      "python-resolvelib",
+      "python-paramiko",
+      "python-typing-extensions"
+    ]
+  },
+  {
+    "package_name": "aom",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "apparmor",
+    "dependencies": [
+      "audit",
+      "glibc",
+      "pam",
+      "python",
+      "libcrypt.so"
+    ]
+  },
+  {
+    "package_name": "appstream-glib",
+    "dependencies": [
+      "gtk3",
+      "libyaml",
+      "pacman",
+      "gcab",
+      "curl",
+      "libstemmer"
+    ]
+  },
+  {
+    "package_name": "arandr",
+    "dependencies": [
+      "gtk3",
+      "python-cairo",
+      "python-gobject",
+      "xorg-xrandr"
+    ]
+  },
+  {
+    "package_name": "archlinux-appstream-data"
+  },
+  {
+    "package_name": "archlinux-keyring",
+    "dependencies": [
+      "pacman"
+    ]
+  },
+  {
+    "package_name": "argon2",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "at-spi2-core",
+    "dependencies": [
+      "dbus",
+      "glib2",
+      "libx11",
+      "libxml2",
+      "libxtst",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "atkmm",
+    "dependencies": [
+      "atk",
+      "glibmm",
+      "libsigc-2.0.so",
+      "libglibmm-2.4.so"
+    ]
+  },
+  {
+    "package_name": "attr",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "audit",
+    "dependencies": [
+      "glibc",
+      "krb5",
+      "libkrb5.so",
+      "libgssapi_krb5.so",
+      "libcap-ng",
+      "libcap-ng.so"
+    ]
+  },
+  {
+    "package_name": "autoconf",
+    "dependencies": [
+      "awk",
+      "m4",
+      "diffutils",
+      "perl",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "automake",
+    "dependencies": [
+      "perl",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "avahi",
+    "dependencies": [
+      "expat",
+      "libdaemon",
+      "glib2",
+      "libcap",
+      "gdbm",
+      "dbus",
+      "libdbus-1.so"
+    ]
+  },
+  {
+    "package_name": "b43-fwcutter",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "base",
+    "dependencies": [
+      "filesystem",
+      "gcc-libs",
+      "glibc",
+      "bash",
+      "coreutils",
+      "file",
+      "findutils",
+      "gawk",
+      "grep",
+      "procps-ng",
+      "sed",
+      "tar",
+      "gettext",
+      "pciutils",
+      "psmisc",
+      "shadow",
+      "util-linux",
+      "bzip2",
+      "gzip",
+      "xz",
+      "licenses",
+      "pacman",
+      "archlinux-keyring",
+      "manjaro-keyring",
+      "systemd",
+      "systemd-sysvcompat",
+      "iputils",
+      "iproute2"
+    ]
+  },
+  {
+    "package_name": "bash",
+    "dependencies": [
+      "readline",
+      "libreadline.so",
+      "glibc",
+      "ncurses",
+      "bashrc"
+    ]
+  },
+  {
+    "package_name": "bashrc-manjaro",
+    "dependencies": [
+      "bash"
+    ]
+  },
+  {
+    "package_name": "bc",
+    "dependencies": [
+      "readline"
+    ]
+  },
+  {
+    "package_name": "binutils",
+    "dependencies": [
+      "glibc",
+      "jansson",
+      "libelf",
+      "zlib",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "bison",
+    "dependencies": [
+      "glibc",
+      "m4",
+      "sh",
+      "gettext"
+    ]
+  },
+  {
+    "package_name": "bluez-libs",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "bmenu",
+    "dependencies": [
+      "pacui",
+      "pacman-contrib",
+      "expac",
+      "sudo",
+      "fzf",
+      "ncdu",
+      "gawk",
+      "bash",
+      "sed",
+      "xorg-xinput",
+      "inxi",
+      "cpupower",
+      "ranger",
+      "curl",
+      "powertop",
+      "cmus",
+      "mhwd",
+      "lshw",
+      "lm_sensors",
+      "dmidecode"
+    ]
+  },
+  {
+    "package_name": "brave-browser",
+    "dependencies": [
+      "alsa-lib",
+      "gtk3",
+      "libxss",
+      "nss",
+      "ttf-font"
+    ]
+  },
+  {
+    "package_name": "bridge-utils",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "brotli",
+    "dependencies": [
+      "gcc-libs",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "btrfs-progs",
+    "dependencies": [
+      "glibc",
+      "util-linux-libs",
+      "lzo",
+      "zlib",
+      "zstd",
+      "libgcrypt"
+    ]
+  },
+  {
+    "package_name": "bubblewrap",
+    "dependencies": [
+      "glibc",
+      "libcap"
+    ]
+  },
+  {
+    "package_name": "bzip2",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "c-ares",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "ca-certificates",
+    "dependencies": [
+      "ca-certificates-mozilla"
+    ]
+  },
+  {
+    "package_name": "ca-certificates-mozilla",
+    "dependencies": [
+      "ca-certificates-utils"
+    ]
+  },
+  {
+    "package_name": "ca-certificates-utils",
+    "dependencies": [
+      "bash",
+      "coreutils",
+      "findutils",
+      "p11-kit"
+    ]
+  },
+  {
+    "package_name": "cairo",
+    "dependencies": [
+      "fontconfig",
+      "freetype2",
+      "glib2",
+      "libpng",
+      "libx11",
+      "libxcb",
+      "libxext",
+      "libxrender",
+      "lzo",
+      "pixman",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "cairomm",
+    "dependencies": [
+      "cairo",
+      "libsigc++",
+      "libsigc-2.0.so"
+    ]
+  },
+  {
+    "package_name": "cantarell-fonts"
+  },
+  {
+    "package_name": "chromium",
+    "dependencies": [
+      "gtk3",
+      "nss",
+      "alsa-lib",
+      "xdg-utils",
+      "libxss",
+      "libcups",
+      "libgcrypt",
+      "ttf-liberation",
+      "systemd",
+      "dbus",
+      "libpulse",
+      "pciutils",
+      "libva",
+      "libffi",
+      "desktop-file-utils",
+      "hicolor-icon-theme",
+      "fontconfig",
+      "woff2",
+      "aom",
+      "brotli",
+      "libjpeg",
+      "icu",
+      "dav1d",
+      "flac",
+      "snappy",
+      "libxml2",
+      "ffmpeg",
+      "libwebp",
+      "minizip",
+      "opus",
+      "harfbuzz",
+      "re2",
+      "jsoncpp",
+      "libxslt",
+      "libpng",
+      "freetype2"
+    ]
+  },
+  {
+    "package_name": "cifs-utils",
+    "dependencies": [
+      "libcap",
+      "keyutils",
+      "krb5",
+      "talloc",
+      "pam",
+      "libwbclient"
+    ]
+  },
+  {
+    "package_name": "ckbcomp",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "clang",
+    "dependencies": [
+      "llvm-libs",
+      "gcc",
+      "compiler-rt"
+    ]
+  },
+  {
+    "package_name": "clipit",
+    "dependencies": [
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "cmake",
+    "dependencies": [
+      "curl",
+      "libarchive",
+      "hicolor-icon-theme",
+      "jsoncpp",
+      "libjsoncpp.so",
+      "libuv",
+      "rhash"
+    ]
+  },
+  {
+    "package_name": "cmus",
+    "dependencies": [
+      "libdiscid",
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "compiler-rt",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "confuse",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "conky",
+    "dependencies": [
+      "glibc",
+      "glib2",
+      "lua",
+      "wireless_tools",
+      "libxdamage",
+      "libxinerama",
+      "libxft",
+      "imlib2",
+      "libxml2",
+      "libpulse",
+      "libxnvctrl",
+      "systemd-libs",
+      "ncurses",
+      "curl",
+      "libncursesw.so",
+      "libXNVCtrl.so",
+      "libsystemd.so",
+      "libpulse.so",
+      "libcurl.so"
+    ]
+  },
+  {
+    "package_name": "conky-i3",
+    "dependencies": [
+      "conky",
+      "ttf-bitstream-vera"
+    ]
+  },
+  {
+    "package_name": "containerd",
+    "dependencies": [
+      "runc"
+    ]
+  },
+  {
+    "package_name": "coreutils",
+    "dependencies": [
+      "glibc",
+      "acl",
+      "attr",
+      "gmp",
+      "libcap",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "cpupower",
+    "dependencies": [
+      "glibc",
+      "bash",
+      "pciutils"
+    ]
+  },
+  {
+    "package_name": "cronie",
+    "dependencies": [
+      "pam",
+      "bash",
+      "run-parts"
+    ]
+  },
+  {
+    "package_name": "cryptsetup",
+    "dependencies": [
+      "device-mapper",
+      "libdevmapper.so",
+      "openssl",
+      "popt",
+      "util-linux-libs",
+      "libuuid.so",
+      "json-c",
+      "libjson-c.so",
+      "argon2",
+      "libargon2.so"
+    ]
+  },
+  {
+    "package_name": "curl",
+    "dependencies": [
+      "ca-certificates",
+      "brotli",
+      "libbrotlidec.so",
+      "krb5",
+      "libgssapi_krb5.so",
+      "libidn2",
+      "libidn2.so",
+      "libnghttp2",
+      "libpsl",
+      "libpsl.so",
+      "libssh2",
+      "libssh2.so",
+      "openssl",
+      "zlib",
+      "zstd",
+      "libzstd.so"
+    ]
+  },
+  {
+    "package_name": "cython"
+  },
+  {
+    "package_name": "dav1d",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "db",
+    "dependencies": [
+      "gcc-libs",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "db5.3",
+    "dependencies": [
+      "gcc-libs",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "dbeaver",
+    "dependencies": [
+      "java-runtime",
+      "gtk3",
+      "gtk-update-icon-cache",
+      "libsecret"
+    ]
+  },
+  {
+    "package_name": "dbus",
+    "dependencies": [
+      "systemd-libs",
+      "expat",
+      "audit",
+      "libsystemd.so",
+      "libaudit.so"
+    ]
+  },
+  {
+    "package_name": "dbus-glib",
+    "dependencies": [
+      "dbus",
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "dconf",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "default-cursors"
+  },
+  {
+    "package_name": "desktop-file-utils",
+    "dependencies": [
+      "glib2",
+      "libglib-2.0.so"
+    ]
+  },
+  {
+    "package_name": "device-mapper",
+    "dependencies": [
+      "glibc",
+      "systemd-libs",
+      "libudev.so"
+    ]
+  },
+  {
+    "package_name": "dfc",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "dhclient",
+    "dependencies": [
+      "glibc",
+      "bash",
+      "iproute2",
+      "run-parts"
+    ]
+  },
+  {
+    "package_name": "dhcpcd",
+    "dependencies": [
+      "glibc",
+      "sh",
+      "udev",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "diffutils",
+    "dependencies": [
+      "glibc",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "ding-libs",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "djvulibre",
+    "dependencies": [
+      "libtiff",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "dmenu-manjaro",
+    "dependencies": [
+      "coreutils",
+      "fontconfig",
+      "freetype2",
+      "glibc",
+      "libfontconfig.so",
+      "libx11",
+      "libxinerama",
+      "libxft",
+      "libxinerama",
+      "noto-fonts",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "dmidecode",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "dmraid",
+    "dependencies": [
+      "device-mapper"
+    ]
+  },
+  {
+    "package_name": "dnsmasq",
+    "dependencies": [
+      "glibc",
+      "gmp",
+      "libidn2",
+      "libidn2.so",
+      "libdbus",
+      "libdbus-1.so",
+      "nftables",
+      "libnetfilter_conntrack",
+      "nettle",
+      "libnettle.so",
+      "libhogweed.so"
+    ]
+  },
+  {
+    "package_name": "dnssec-anchors"
+  },
+  {
+    "package_name": "docker",
+    "dependencies": [
+      "glibc",
+      "bridge-utils",
+      "iproute2",
+      "device-mapper",
+      "sqlite",
+      "systemd-libs",
+      "libseccomp",
+      "libtool",
+      "runc",
+      "containerd"
+    ]
+  },
+  {
+    "package_name": "docker-compose"
+  },
+  {
+    "package_name": "dosfstools",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "double-conversion",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "duktape",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "dunst",
+    "dependencies": [
+      "libxinerama",
+      "dbus",
+      "systemd",
+      "wayland",
+      "libxss",
+      "pango",
+      "gdk-pixbuf2",
+      "libxrandr",
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "e2fsprogs",
+    "dependencies": [
+      "sh",
+      "util-linux-libs"
+    ]
+  },
+  {
+    "package_name": "ecryptfs-utils",
+    "dependencies": [
+      "nss",
+      "pam"
+    ]
+  },
+  {
+    "package_name": "efibootmgr",
+    "dependencies": [
+      "glibc",
+      "popt",
+      "libefiboot.so",
+      "libefivar.so"
+    ]
+  },
+  {
+    "package_name": "efivar",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "egl-wayland",
+    "dependencies": [
+      "wayland",
+      "eglexternalplatform"
+    ]
+  },
+  {
+    "package_name": "eglexternalplatform",
+    "dependencies": [
+      "libegl"
+    ]
+  },
+  {
+    "package_name": "enchant",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "epdfview",
+    "dependencies": [
+      "poppler-glib",
+      "desktop-file-utils",
+      "hicolor-icon-theme",
+      "gtk2"
+    ]
+  },
+  {
+    "package_name": "evince",
+    "dependencies": [
+      "gtk3",
+      "libgxps",
+      "libspectre",
+      "gsfonts",
+      "poppler-glib",
+      "djvulibre",
+      "dconf",
+      "libsecret",
+      "libsynctex",
+      "gsettings-desktop-schemas",
+      "gnome-desktop",
+      "libarchive",
+      "gst-plugins-base-libs",
+      "gspell",
+      "libhandy",
+      "gvfs"
+    ]
+  },
+  {
+    "package_name": "exempi",
+    "dependencies": [
+      "gcc-libs",
+      "expat",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "exfatprogs",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "exiv2",
+    "dependencies": [
+      "gcc-libs",
+      "zlib",
+      "expat",
+      "libexpat.so",
+      "gettext",
+      "curl",
+      "libcurl.so"
+    ]
+  },
+  {
+    "package_name": "exo",
+    "dependencies": [
+      "libxfce4ui"
+    ]
+  },
+  {
+    "package_name": "expac",
+    "dependencies": [
+      "pacman"
+    ]
+  },
+  {
+    "package_name": "expat",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "f2fs-tools",
+    "dependencies": [
+      "util-linux"
+    ]
+  },
+  {
+    "package_name": "fakeroot",
+    "dependencies": [
+      "glibc",
+      "filesystem",
+      "sed",
+      "util-linux",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "feh",
+    "dependencies": [
+      "curl",
+      "file",
+      "imlib2",
+      "libexif",
+      "libxinerama"
+    ]
+  },
+  {
+    "package_name": "ffmpeg",
+    "dependencies": [
+      "alsa-lib",
+      "aom",
+      "bzip2",
+      "fontconfig",
+      "fribidi",
+      "gmp",
+      "gnutls",
+      "gsm",
+      "jack",
+      "lame",
+      "libass.so",
+      "libavc1394",
+      "libbluray.so",
+      "libbs2b.so",
+      "libdav1d.so",
+      "libdrm",
+      "libfreetype.so",
+      "libgl",
+      "libiec61883",
+      "libmfx",
+      "libmodplug",
+      "libpulse",
+      "librav1e.so",
+      "libraw1394",
+      "librsvg-2.so",
+      "libsoxr",
+      "libssh",
+      "libtheora",
+      "libva.so",
+      "libva-drm.so",
+      "libva-x11.so",
+      "libvdpau",
+      "libvidstab.so",
+      "libvorbisenc.so",
+      "libvorbis.so",
+      "libvpx.so",
+      "libvulkan.so",
+      "libwebp",
+      "libx11",
+      "libx264.so",
+      "libx265.so",
+      "libxcb",
+      "libxext",
+      "libxml2",
+      "libxv",
+      "libxvidcore.so",
+      "libzimg.so",
+      "ocl-icd",
+      "opencore-amr",
+      "openjpeg2",
+      "opus",
+      "sdl2",
+      "speex",
+      "srt",
+      "svt-av1",
+      "v4l-utils",
+      "vmaf",
+      "xz",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "fftw",
+    "dependencies": [
+      "bash",
+      "gcc-libs",
+      "glibc",
+      "openmpi"
+    ]
+  },
+  {
+    "package_name": "file",
+    "dependencies": [
+      "glibc",
+      "zlib",
+      "xz",
+      "bzip2",
+      "libseccomp",
+      "libseccomp.so"
+    ]
+  },
+  {
+    "package_name": "filesystem",
+    "dependencies": [
+      "iana-etc"
+    ]
+  },
+  {
+    "package_name": "findutils",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "firefox",
+    "dependencies": [
+      "dbus-glib",
+      "ffmpeg",
+      "gtk3",
+      "libpulse",
+      "libxt",
+      "mime-types",
+      "nss",
+      "ttf-font"
+    ]
+  },
+  {
+    "package_name": "flac",
+    "dependencies": [
+      "gcc-libs",
+      "libogg"
+    ]
+  },
+  {
+    "package_name": "flex",
+    "dependencies": [
+      "glibc",
+      "m4",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "fontconfig",
+    "dependencies": [
+      "expat",
+      "freetype2",
+      "libexpat.so",
+      "libfreetype.so"
+    ]
+  },
+  {
+    "package_name": "freeglut",
+    "dependencies": [
+      "libxi",
+      "libxrandr",
+      "libgl"
+    ]
+  },
+  {
+    "package_name": "freetype2",
+    "dependencies": [
+      "brotli",
+      "bzip2",
+      "harfbuzz",
+      "libpng",
+      "sh",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "fribidi",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "fuse-common"
+  },
+  {
+    "package_name": "fuse2",
+    "dependencies": [
+      "glibc",
+      "fuse-common"
+    ]
+  },
+  {
+    "package_name": "fuse3",
+    "dependencies": [
+      "fuse-common",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "fzf",
+    "dependencies": [
+      "bash"
+    ]
+  },
+  {
+    "package_name": "garcon",
+    "dependencies": [
+      "libxfce4ui"
+    ]
+  },
+  {
+    "package_name": "gawk",
+    "dependencies": [
+      "sh",
+      "glibc",
+      "mpfr"
+    ]
+  },
+  {
+    "package_name": "gc",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "gcab",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "gcc",
+    "dependencies": [
+      "gcc-libs",
+      "binutils",
+      "libmpc",
+      "zstd",
+      "libisl.so"
+    ]
+  },
+  {
+    "package_name": "gcc-libs",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "gcolor2",
+    "dependencies": [
+      "gtk2"
+    ]
+  },
+  {
+    "package_name": "gcolor3",
+    "dependencies": [
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "gcr",
+    "dependencies": [
+      "gtk3",
+      "libgcrypt",
+      "p11-kit",
+      "openssh",
+      "libsecret"
+    ]
+  },
+  {
+    "package_name": "gcr-4",
+    "dependencies": [
+      "glib2",
+      "libgcrypt",
+      "p11-kit",
+      "libsecret",
+      "systemd",
+      "openssh"
+    ]
+  },
+  {
+    "package_name": "gd",
+    "dependencies": [
+      "fontconfig",
+      "libxpm",
+      "libwebp",
+      "libavif",
+      "libheif"
+    ]
+  },
+  {
+    "package_name": "gdbm",
+    "dependencies": [
+      "glibc",
+      "sh",
+      "libreadline.so"
+    ]
+  },
+  {
+    "package_name": "gdk-pixbuf2",
+    "dependencies": [
+      "glib2",
+      "libpng",
+      "libtiff",
+      "libjpeg",
+      "shared-mime-info"
+    ]
+  },
+  {
+    "package_name": "gedit",
+    "dependencies": [
+      "amtk",
+      "gsettings-desktop-schemas",
+      "gspell",
+      "libpeas",
+      "python-gobject",
+      "tepl"
+    ]
+  },
+  {
+    "package_name": "gettext",
+    "dependencies": [
+      "gcc-libs",
+      "acl",
+      "sh",
+      "libunistring",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "ghostscript",
+    "dependencies": [
+      "libxt",
+      "libcups",
+      "fontconfig",
+      "zlib",
+      "libpng",
+      "libjpeg",
+      "jbig2dec",
+      "libtiff",
+      "lcms2",
+      "dbus",
+      "libpaper",
+      "ijs",
+      "openjpeg2",
+      "libidn",
+      "poppler-data"
+    ]
+  },
+  {
+    "package_name": "giflib",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "git",
+    "dependencies": [
+      "curl",
+      "expat",
+      "perl",
+      "perl-error",
+      "perl-mailtools",
+      "openssl",
+      "pcre2",
+      "grep",
+      "shadow",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "github-cli",
+    "dependencies": [
+      "glibc",
+      "mailcap"
+    ]
+  },
+  {
+    "package_name": "glew",
+    "dependencies": [
+      "glibc",
+      "libegl",
+      "libgl",
+      "glu"
+    ]
+  },
+  {
+    "package_name": "glfw-x11",
+    "dependencies": [
+      "libxi",
+      "libxrandr",
+      "libxinerama",
+      "libxcursor",
+      "libgl"
+    ]
+  },
+  {
+    "package_name": "glib-networking",
+    "dependencies": [
+      "glib2",
+      "libproxy",
+      "gnutls",
+      "gsettings-desktop-schemas"
+    ]
+  },
+  {
+    "package_name": "glib2",
+    "dependencies": [
+      "libffi",
+      "libsysprof-capture",
+      "pcre2",
+      "util-linux-libs",
+      "zlib",
+      "libffi.so",
+      "libmount.so"
+    ]
+  },
+  {
+    "package_name": "glibc",
+    "dependencies": [
+      "linux-api-headers",
+      "tzdata",
+      "filesystem"
+    ]
+  },
+  {
+    "package_name": "glibc-locales",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "glibmm",
+    "dependencies": [
+      "glib2",
+      "libsigc++",
+      "libsigc-2.0.so"
+    ]
+  },
+  {
+    "package_name": "glu",
+    "dependencies": [
+      "libgl"
+    ]
+  },
+  {
+    "package_name": "gmp",
+    "dependencies": [
+      "gcc-libs",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "gnome-autoar",
+    "dependencies": [
+      "glib2",
+      "libarchive",
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "gnome-desktop",
+    "dependencies": [
+      "gnome-desktop-common",
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "gnome-desktop-4",
+    "dependencies": [
+      "gnome-desktop-common",
+      "gtk4"
+    ]
+  },
+  {
+    "package_name": "gnome-desktop-common",
+    "dependencies": [
+      "gsettings-desktop-schemas",
+      "xkeyboard-config",
+      "iso-codes",
+      "libseccomp",
+      "bubblewrap",
+      "systemd",
+      "libxkbcommon"
+    ]
+  },
+  {
+    "package_name": "gnome-keyring",
+    "dependencies": [
+      "gcr",
+      "gcr-4",
+      "libcap-ng",
+      "pam",
+      "openssh"
+    ]
+  },
+  {
+    "package_name": "gnupg",
+    "dependencies": [
+      "bzip2",
+      "libbz2.so",
+      "glibc",
+      "gnutls",
+      "libgcrypt",
+      "libgpg-error",
+      "libksba",
+      "libassuan",
+      "libassuan.so",
+      "npth",
+      "libnpth.so",
+      "pinentry",
+      "readline",
+      "libreadline.so",
+      "sqlite",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "gnutls",
+    "dependencies": [
+      "gcc-libs",
+      "libtasn1",
+      "readline",
+      "zlib",
+      "nettle",
+      "p11-kit",
+      "libidn2",
+      "zstd",
+      "libidn2.so",
+      "libunistring",
+      "brotli"
+    ]
+  },
+  {
+    "package_name": "gobject-introspection-runtime",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "gpgme",
+    "dependencies": [
+      "libgpg-error",
+      "gnupg"
+    ]
+  },
+  {
+    "package_name": "gpm",
+    "dependencies": [
+      "bash",
+      "procps-ng"
+    ]
+  },
+  {
+    "package_name": "gptfdisk",
+    "dependencies": [
+      "gcc-libs",
+      "popt",
+      "libuuid.so",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "graphene",
+    "dependencies": [
+      "libglib-2.0.so",
+      "libgobject-2.0.so"
+    ]
+  },
+  {
+    "package_name": "graphite",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "graphviz",
+    "dependencies": [
+      "libltdl",
+      "gd",
+      "librsvg",
+      "libxaw",
+      "ghostscript",
+      "pango",
+      "gts",
+      "gsfonts",
+      "libnsl",
+      "libpng"
+    ]
+  },
+  {
+    "package_name": "grep",
+    "dependencies": [
+      "glibc",
+      "pcre2"
+    ]
+  },
+  {
+    "package_name": "groff",
+    "dependencies": [
+      "perl",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "grub",
+    "dependencies": [
+      "sh",
+      "xz",
+      "gettext",
+      "device-mapper"
+    ]
+  },
+  {
+    "package_name": "grub-theme-manjaro-dev",
+    "dependencies": [
+      "grub"
+    ]
+  },
+  {
+    "package_name": "gsettings-desktop-schemas",
+    "dependencies": [
+      "glib2",
+      "dconf",
+      "cantarell-fonts",
+      "adobe-source-code-pro-fonts"
+    ]
+  },
+  {
+    "package_name": "gsfonts"
+  },
+  {
+    "package_name": "gsm",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "gspell",
+    "dependencies": [
+      "glib2",
+      "gtk3",
+      "enchant",
+      "icu",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libpango-1.0.so",
+      "libgtk-3.so",
+      "libenchant-2.so",
+      "libicuuc.so"
+    ]
+  },
+  {
+    "package_name": "gssdp",
+    "dependencies": [
+      "glib2",
+      "libsoup3",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libsoup-3.0.so"
+    ]
+  },
+  {
+    "package_name": "gssproxy",
+    "dependencies": [
+      "libverto-module-base",
+      "popt",
+      "ding-libs",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "gst-plugins-bad-libs",
+    "dependencies": [
+      "gst-plugins-base-libs",
+      "orc",
+      "libdrm",
+      "libx11",
+      "libgudev",
+      "libusb",
+      "libxkbcommon-x11",
+      "libva",
+      "libnice",
+      "vulkan-icd-loader",
+      "wayland"
+    ]
+  },
+  {
+    "package_name": "gst-plugins-base-libs",
+    "dependencies": [
+      "gstreamer",
+      "orc",
+      "libxv",
+      "iso-codes",
+      "libgudev",
+      "libgl",
+      "mesa",
+      "libxi",
+      "wayland"
+    ]
+  },
+  {
+    "package_name": "gstreamer",
+    "dependencies": [
+      "libxml2",
+      "glib2",
+      "libunwind",
+      "libcap",
+      "libelf"
+    ]
+  },
+  {
+    "package_name": "gtk-update-icon-cache",
+    "dependencies": [
+      "gdk-pixbuf2",
+      "librsvg",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "gtk2",
+    "dependencies": [
+      "atk",
+      "pango",
+      "libxcursor",
+      "libxinerama",
+      "libxrandr",
+      "libxi",
+      "libxcomposite",
+      "libxdamage",
+      "shared-mime-info",
+      "cairo",
+      "libcups",
+      "gtk-update-icon-cache",
+      "librsvg",
+      "desktop-file-utils"
+    ]
+  },
+  {
+    "package_name": "gtk3",
+    "dependencies": [
+      "adwaita-icon-theme",
+      "atk",
+      "cairo",
+      "cantarell-fonts",
+      "dconf",
+      "desktop-file-utils",
+      "fontconfig",
+      "fribidi",
+      "gdk-pixbuf2",
+      "glib2",
+      "harfbuzz",
+      "iso-codes",
+      "libcloudproviders",
+      "libcolord",
+      "libcups",
+      "libegl",
+      "libepoxy",
+      "libgl",
+      "librsvg",
+      "libxcomposite",
+      "libx11",
+      "libxcursor",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxi",
+      "libxinerama",
+      "libxkbcommon",
+      "libxrandr",
+      "libxrender",
+      "pango",
+      "shared-mime-info",
+      "tracker3",
+      "wayland",
+      "gtk-update-icon-cache"
+    ]
+  },
+  {
+    "package_name": "gtk4",
+    "dependencies": [
+      "adwaita-icon-theme",
+      "cairo",
+      "cantarell-fonts",
+      "dconf",
+      "desktop-file-utils",
+      "fontconfig",
+      "fribidi",
+      "gdk-pixbuf2",
+      "glib2",
+      "graphene",
+      "gst-plugins-bad-libs",
+      "harfbuzz",
+      "iso-codes",
+      "libcloudproviders",
+      "libcolord",
+      "libcups",
+      "libegl",
+      "libepoxy",
+      "libgl",
+      "libjpeg",
+      "libpng",
+      "librsvg",
+      "libtiff",
+      "libx11",
+      "libxcursor",
+      "libxdamage",
+      "libxext",
+      "libxfixes",
+      "libxi",
+      "libxinerama",
+      "libxkbcommon",
+      "libxrandr",
+      "libxrender",
+      "pango",
+      "shared-mime-info",
+      "tracker3",
+      "wayland",
+      "gtk-update-icon-cache"
+    ]
+  },
+  {
+    "package_name": "gtkmm",
+    "dependencies": [
+      "gtk2",
+      "pangomm",
+      "atkmm"
+    ]
+  },
+  {
+    "package_name": "gtkmm3",
+    "dependencies": [
+      "gtk3",
+      "pangomm",
+      "atkmm",
+      "libsigc-2.0.so",
+      "libglibmm-2.4.so",
+      "libcairomm-1.0.so",
+      "libpangomm-1.4.so",
+      "libatkmm-1.6.so"
+    ]
+  },
+  {
+    "package_name": "gtksourceview4",
+    "dependencies": [
+      "gtk3",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "gts",
+    "dependencies": [
+      "glib2",
+      "netpbm"
+    ]
+  },
+  {
+    "package_name": "guile",
+    "dependencies": [
+      "gmp",
+      "ncurses",
+      "libunistring",
+      "gc",
+      "libffi",
+      "libxcrypt"
+    ]
+  },
+  {
+    "package_name": "gupnp",
+    "dependencies": [
+      "glib2",
+      "gssdp",
+      "libxml2",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libgmodule-2.0.so",
+      "libgssdp-1.6.so",
+      "libsoup-3.0.so"
+    ]
+  },
+  {
+    "package_name": "gupnp-dlna",
+    "dependencies": [
+      "gst-plugins-base-libs",
+      "libglib-2.0.so",
+      "libgobject-2.0.so"
+    ]
+  },
+  {
+    "package_name": "gupnp-igd",
+    "dependencies": [
+      "gupnp",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libgssdp-1.6.so",
+      "libgupnp-1.6.so"
+    ]
+  },
+  {
+    "package_name": "gvfs",
+    "dependencies": [
+      "avahi",
+      "dconf",
+      "fuse3",
+      "libarchive",
+      "libcdio-paranoia",
+      "libsoup3",
+      "udisks2",
+      "libsecret",
+      "libbluray",
+      "libgudev",
+      "gcr",
+      "psmisc",
+      "gsettings-desktop-schemas"
+    ]
+  },
+  {
+    "package_name": "gvfs-afc",
+    "dependencies": [
+      "gvfs",
+      "libimobiledevice",
+      "usbmuxd"
+    ]
+  },
+  {
+    "package_name": "gvfs-gphoto2",
+    "dependencies": [
+      "gvfs",
+      "libgphoto2"
+    ]
+  },
+  {
+    "package_name": "gvfs-mtp",
+    "dependencies": [
+      "gvfs",
+      "libmtp"
+    ]
+  },
+  {
+    "package_name": "gvfs-smb",
+    "dependencies": [
+      "gvfs",
+      "smbclient"
+    ]
+  },
+  {
+    "package_name": "gzip",
+    "dependencies": [
+      "glibc",
+      "bash",
+      "less"
+    ]
+  },
+  {
+    "package_name": "harfbuzz",
+    "dependencies": [
+      "libfreetype.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgraphite2.so"
+    ]
+  },
+  {
+    "package_name": "harfbuzz-icu",
+    "dependencies": [
+      "libharfbuzz.so",
+      "libicuuc.so"
+    ]
+  },
+  {
+    "package_name": "haveged",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "hicolor-icon-theme"
+  },
+  {
+    "package_name": "hidapi"
+  },
+  {
+    "package_name": "highlight",
+    "dependencies": [
+      "lua"
+    ]
+  },
+  {
+    "package_name": "htop",
+    "dependencies": [
+      "libcap",
+      "libcap.so",
+      "libnl",
+      "ncurses",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "http-parser",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "hwdata"
+  },
+  {
+    "package_name": "hwinfo",
+    "dependencies": [
+      "libx86emu",
+      "perl-xml-parser",
+      "perl-xml-writer"
+    ]
+  },
+  {
+    "package_name": "hwloc",
+    "dependencies": [
+      "glibc",
+      "libtool",
+      "systemd-libs",
+      "libpciaccess"
+    ]
+  },
+  {
+    "package_name": "hyphen",
+    "dependencies": [
+      "glibc",
+      "perl"
+    ]
+  },
+  {
+    "package_name": "i3-default-artwork"
+  },
+  {
+    "package_name": "i3-help"
+  },
+  {
+    "package_name": "i3-scripts"
+  },
+  {
+    "package_name": "i3-scrot",
+    "dependencies": [
+      "libnotify",
+      "scrot",
+      "xclip",
+      "xdg-user-dirs"
+    ]
+  },
+  {
+    "package_name": "i3-wm",
+    "dependencies": [
+      "libev",
+      "libxkbcommon-x11",
+      "pango",
+      "startup-notification",
+      "xcb-util-cursor",
+      "xcb-util-keysyms",
+      "xcb-util-wm",
+      "xcb-util-xrm",
+      "yajl"
+    ]
+  },
+  {
+    "package_name": "i3exit",
+    "dependencies": [
+      "i3-wm",
+      "i3lock",
+      "imagemagick",
+      "xorg-xrandr"
+    ]
+  },
+  {
+    "package_name": "i3lock",
+    "dependencies": [
+      "xcb-util-image",
+      "xcb-util-xrm",
+      "libev",
+      "cairo",
+      "libxkbcommon-x11",
+      "pam"
+    ]
+  },
+  {
+    "package_name": "i3status-manjaro",
+    "dependencies": [
+      "alsa-lib",
+      "confuse",
+      "libnl",
+      "libpulse",
+      "ttf-font-icons",
+      "yajl"
+    ]
+  },
+  {
+    "package_name": "iana-etc"
+  },
+  {
+    "package_name": "icu",
+    "dependencies": [
+      "gcc-libs",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "ijs",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "imagemagick",
+    "dependencies": [
+      "libltdl",
+      "lcms2",
+      "fontconfig",
+      "libxext",
+      "liblqr",
+      "libraqm",
+      "libpng",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "imlib2",
+    "dependencies": [
+      "bzip2",
+      "freetype2",
+      "giflib",
+      "libjpeg-turbo",
+      "libpng",
+      "libtiff",
+      "libxext",
+      "xz"
+    ]
+  },
+  {
+    "package_name": "inetutils",
+    "dependencies": [
+      "pam",
+      "libcap",
+      "readline",
+      "ncurses",
+      "libxcrypt",
+      "libpam.so",
+      "libcrypt.so",
+      "libreadline.so",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "iniparser",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "intel-ucode"
+  },
+  {
+    "package_name": "inxi",
+    "dependencies": [
+      "coreutils",
+      "pciutils",
+      "perl",
+      "procps-ng",
+      "util-linux"
+    ]
+  },
+  {
+    "package_name": "iproute2",
+    "dependencies": [
+      "glibc",
+      "iptables",
+      "libcap",
+      "libelf",
+      "libbpf"
+    ]
+  },
+  {
+    "package_name": "iptables",
+    "dependencies": [
+      "libnftnl",
+      "libpcap",
+      "libnfnetlink",
+      "libnetfilter_conntrack",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "iputils",
+    "dependencies": [
+      "libcap",
+      "libidn2"
+    ]
+  },
+  {
+    "package_name": "iso-codes"
+  },
+  {
+    "package_name": "iw",
+    "dependencies": [
+      "libnl"
+    ]
+  },
+  {
+    "package_name": "jack2",
+    "dependencies": [
+      "alsa-lib",
+      "libasound.so",
+      "db5.3",
+      "dbus",
+      "libdbus-1.so",
+      "gcc-libs",
+      "glibc",
+      "libsamplerate",
+      "libsamplerate.so",
+      "opus",
+      "libopus.so",
+      "systemd-libs",
+      "libsystemd.so"
+    ]
+  },
+  {
+    "package_name": "jansson",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "java-runtime-common",
+    "dependencies": [
+      "bash",
+      "findutils",
+      "coreutils"
+    ]
+  },
+  {
+    "package_name": "jbig2dec",
+    "dependencies": [
+      "libpng"
+    ]
+  },
+  {
+    "package_name": "jetbrains-fleet"
+  },
+  {
+    "package_name": "jfsutils",
+    "dependencies": [
+      "util-linux"
+    ]
+  },
+  {
+    "package_name": "jre-openjdk",
+    "dependencies": [
+      "jre19-openjdk-headless",
+      "giflib",
+      "libgif.so",
+      "glibc",
+      "gcc-libs",
+      "libpng"
+    ]
+  },
+  {
+    "package_name": "jre-openjdk-headless",
+    "dependencies": [
+      "java-runtime-common",
+      "ca-certificates-utils",
+      "nss",
+      "libjpeg-turbo",
+      "libjpeg.so",
+      "lcms2",
+      "liblcms2.so",
+      "libnet",
+      "freetype2",
+      "libfreetype.so",
+      "harfbuzz",
+      "libharfbuzz.so",
+      "glibc",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "json-c",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "json-glib",
+    "dependencies": [
+      "glib2",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "jsoncpp",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "kauth",
+    "dependencies": [
+      "kcoreaddons",
+      "polkit-qt5"
+    ]
+  },
+  {
+    "package_name": "kbd",
+    "dependencies": [
+      "glibc",
+      "pam"
+    ]
+  },
+  {
+    "package_name": "kcoreaddons",
+    "dependencies": [
+      "qt5-base"
+    ]
+  },
+  {
+    "package_name": "keepass",
+    "dependencies": [
+      "mono",
+      "desktop-file-utils",
+      "xdg-utils",
+      "shared-mime-info",
+      "gtk-update-icon-cache"
+    ]
+  },
+  {
+    "package_name": "keyutils",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "kitemmodels",
+    "dependencies": [
+      "qt5-base"
+    ]
+  },
+  {
+    "package_name": "kmod",
+    "dependencies": [
+      "glibc",
+      "zlib",
+      "openssl",
+      "xz",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "krb5",
+    "dependencies": [
+      "glibc",
+      "e2fsprogs",
+      "libldap",
+      "keyutils",
+      "libverto-module-base",
+      "libkeyutils.so",
+      "libss.so",
+      "libcom_err.so",
+      "libverto.so"
+    ]
+  },
+  {
+    "package_name": "kvantum",
+    "dependencies": [
+      "qt5-svg",
+      "kwindowsystem",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "kvantum-manjaro",
+    "dependencies": [
+      "kvantum"
+    ]
+  },
+  {
+    "package_name": "kwindowsystem",
+    "dependencies": [
+      "qt5-x11extras"
+    ]
+  },
+  {
+    "package_name": "l-smash",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "lame",
+    "dependencies": [
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "lcms2",
+    "dependencies": [
+      "libtiff"
+    ]
+  },
+  {
+    "package_name": "ldb",
+    "dependencies": [
+      "talloc",
+      "libtevent.so",
+      "tdb",
+      "libtdb.so",
+      "popt",
+      "lmdb"
+    ]
+  },
+  {
+    "package_name": "ldns",
+    "dependencies": [
+      "openssl",
+      "dnssec-anchors"
+    ]
+  },
+  {
+    "package_name": "less",
+    "dependencies": [
+      "glibc",
+      "ncurses",
+      "pcre2"
+    ]
+  },
+  {
+    "package_name": "lib32-brotli",
+    "dependencies": [
+      "brotli",
+      "lib32-gcc-libs"
+    ]
+  },
+  {
+    "package_name": "lib32-bzip2",
+    "dependencies": [
+      "lib32-glibc",
+      "bzip2"
+    ]
+  },
+  {
+    "package_name": "lib32-curl",
+    "dependencies": [
+      "curl",
+      "lib32-brotli",
+      "lib32-libidn2",
+      "lib32-libssh2",
+      "lib32-krb5",
+      "lib32-libpsl",
+      "lib32-zlib",
+      "lib32-zstd",
+      "lib32-openssl"
+    ]
+  },
+  {
+    "package_name": "lib32-e2fsprogs",
+    "dependencies": [
+      "lib32-glibc",
+      "e2fsprogs"
+    ]
+  },
+  {
+    "package_name": "lib32-expat",
+    "dependencies": [
+      "expat",
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-flex",
+    "dependencies": [
+      "flex",
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-freeglut",
+    "dependencies": [
+      "lib32-libxi",
+      "lib32-libxrandr",
+      "lib32-libgl",
+      "freeglut"
+    ]
+  },
+  {
+    "package_name": "lib32-gcc-libs",
+    "dependencies": [
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-glew",
+    "dependencies": [
+      "lib32-libxmu",
+      "lib32-libxi",
+      "lib32-glu",
+      "glew"
+    ]
+  },
+  {
+    "package_name": "lib32-glibc",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-glu",
+    "dependencies": [
+      "lib32-libgl",
+      "glu"
+    ]
+  },
+  {
+    "package_name": "lib32-icu",
+    "dependencies": [
+      "lib32-gcc-libs",
+      "icu"
+    ]
+  },
+  {
+    "package_name": "lib32-keyutils",
+    "dependencies": [
+      "lib32-glibc",
+      "lib32-krb5",
+      "keyutils"
+    ]
+  },
+  {
+    "package_name": "lib32-krb5",
+    "dependencies": [
+      "lib32-glibc",
+      "lib32-gcc-libs",
+      "lib32-e2fsprogs",
+      "lib32-libldap",
+      "lib32-keyutils",
+      "krb5"
+    ]
+  },
+  {
+    "package_name": "lib32-libcap",
+    "dependencies": [
+      "libcap",
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "lib32-pam"
+    ]
+  },
+  {
+    "package_name": "lib32-libdrm",
+    "dependencies": [
+      "lib32-libpciaccess",
+      "libdrm"
+    ]
+  },
+  {
+    "package_name": "lib32-libelf",
+    "dependencies": [
+      "lib32-bzip2",
+      "lib32-curl",
+      "lib32-gcc-libs",
+      "lib32-xz",
+      "lib32-zlib",
+      "lib32-zstd",
+      "libelf"
+    ]
+  },
+  {
+    "package_name": "lib32-libffi",
+    "dependencies": [
+      "lib32-glibc",
+      "libffi"
+    ]
+  },
+  {
+    "package_name": "lib32-libgcrypt",
+    "dependencies": [
+      "lib32-libgpg-error",
+      "libgcrypt"
+    ]
+  },
+  {
+    "package_name": "lib32-libglvnd",
+    "dependencies": [
+      "lib32-libxext",
+      "libglvnd",
+      "lib32-mesa",
+      "lib32-opengl-driver"
+    ]
+  },
+  {
+    "package_name": "lib32-libgpg-error",
+    "dependencies": [
+      "lib32-glibc",
+      "libgpg-error"
+    ]
+  },
+  {
+    "package_name": "lib32-libice",
+    "dependencies": [
+      "lib32-glibc",
+      "libice"
+    ]
+  },
+  {
+    "package_name": "lib32-libidn2",
+    "dependencies": [
+      "libidn2",
+      "lib32-glibc",
+      "lib32-libunistring"
+    ]
+  },
+  {
+    "package_name": "lib32-libldap",
+    "dependencies": [
+      "lib32-openssl",
+      "lib32-libxcrypt",
+      "libldap"
+    ]
+  },
+  {
+    "package_name": "lib32-libpciaccess",
+    "dependencies": [
+      "lib32-glibc",
+      "libpciaccess"
+    ]
+  },
+  {
+    "package_name": "lib32-libpsl",
+    "dependencies": [
+      "libpsl",
+      "lib32-glibc",
+      "lib32-libidn2",
+      "lib32-libunistring"
+    ]
+  },
+  {
+    "package_name": "lib32-libsm",
+    "dependencies": [
+      "lib32-libice",
+      "lib32-util-linux",
+      "libsm"
+    ]
+  },
+  {
+    "package_name": "lib32-libssh2",
+    "dependencies": [
+      "lib32-openssl",
+      "lib32-zlib",
+      "libssh2"
+    ]
+  },
+  {
+    "package_name": "lib32-libtirpc",
+    "dependencies": [
+      "lib32-krb5",
+      "libtirpc"
+    ]
+  },
+  {
+    "package_name": "lib32-libunistring",
+    "dependencies": [
+      "libunistring",
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-libunwind",
+    "dependencies": [
+      "lib32-gcc-libs",
+      "libunwind",
+      "lib32-xz"
+    ]
+  },
+  {
+    "package_name": "lib32-libva",
+    "dependencies": [
+      "lib32-libdrm",
+      "lib32-libgl",
+      "lib32-libxext",
+      "lib32-libxfixes",
+      "lib32-wayland",
+      "libva"
+    ]
+  },
+  {
+    "package_name": "lib32-libva-vdpau-driver",
+    "dependencies": [
+      "lib32-libva",
+      "lib32-libvdpau",
+      "lib32-libgl"
+    ]
+  },
+  {
+    "package_name": "lib32-libvdpau",
+    "dependencies": [
+      "lib32-libxext",
+      "libvdpau"
+    ]
+  },
+  {
+    "package_name": "lib32-libx11",
+    "dependencies": [
+      "lib32-libxcb",
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "lib32-libxau",
+    "dependencies": [
+      "lib32-glibc",
+      "libxau"
+    ]
+  },
+  {
+    "package_name": "lib32-libxcb",
+    "dependencies": [
+      "lib32-libxdmcp",
+      "lib32-libxau",
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "lib32-libxcrypt",
+    "dependencies": [
+      "lib32-glibc",
+      "libxcrypt"
+    ]
+  },
+  {
+    "package_name": "lib32-libxdamage",
+    "dependencies": [
+      "lib32-libxfixes",
+      "libxdamage"
+    ]
+  },
+  {
+    "package_name": "lib32-libxdmcp",
+    "dependencies": [
+      "lib32-glibc",
+      "libxdmcp"
+    ]
+  },
+  {
+    "package_name": "lib32-libxext",
+    "dependencies": [
+      "lib32-libx11",
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "lib32-libxfixes",
+    "dependencies": [
+      "lib32-libx11",
+      "libxfixes"
+    ]
+  },
+  {
+    "package_name": "lib32-libxi",
+    "dependencies": [
+      "lib32-libxext",
+      "lib32-libxfixes",
+      "libxi"
+    ]
+  },
+  {
+    "package_name": "lib32-libxml2",
+    "dependencies": [
+      "lib32-icu",
+      "lib32-xz",
+      "lib32-zlib",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "lib32-libxmu",
+    "dependencies": [
+      "lib32-libxext",
+      "lib32-libxt",
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "lib32-libxrandr",
+    "dependencies": [
+      "lib32-libxext",
+      "lib32-libxrender",
+      "libxrandr"
+    ]
+  },
+  {
+    "package_name": "lib32-libxrender",
+    "dependencies": [
+      "lib32-libx11",
+      "libxrender"
+    ]
+  },
+  {
+    "package_name": "lib32-libxshmfence",
+    "dependencies": [
+      "lib32-glibc",
+      "libxshmfence"
+    ]
+  },
+  {
+    "package_name": "lib32-libxt",
+    "dependencies": [
+      "lib32-libsm",
+      "lib32-libx11",
+      "libxt"
+    ]
+  },
+  {
+    "package_name": "lib32-libxxf86vm",
+    "dependencies": [
+      "lib32-libxext",
+      "libxxf86vm"
+    ]
+  },
+  {
+    "package_name": "lib32-llvm-libs",
+    "dependencies": [
+      "lib32-libffi",
+      "lib32-zlib",
+      "lib32-zstd",
+      "lib32-ncurses",
+      "lib32-libxml2",
+      "lib32-gcc-libs"
+    ]
+  },
+  {
+    "package_name": "lib32-lm_sensors",
+    "dependencies": [
+      "lm_sensors",
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-mesa",
+    "dependencies": [
+      "lib32-libdrm",
+      "lib32-wayland",
+      "lib32-libxxf86vm",
+      "lib32-libxdamage",
+      "lib32-libxshmfence",
+      "lib32-libelf",
+      "lib32-libunwind",
+      "lib32-llvm-libs",
+      "lib32-lm_sensors",
+      "lib32-libglvnd",
+      "lib32-zstd",
+      "lib32-vulkan-icd-loader",
+      "libsensors.so",
+      "mesa"
+    ]
+  },
+  {
+    "package_name": "lib32-mesa-demos",
+    "dependencies": [
+      "lib32-libgl",
+      "lib32-glew",
+      "lib32-freeglut",
+      "mesa-demos"
+    ]
+  },
+  {
+    "package_name": "lib32-mesa-vdpau",
+    "dependencies": [
+      "lib32-libdrm",
+      "lib32-libx11",
+      "lib32-llvm-libs",
+      "lib32-expat",
+      "lib32-libelf",
+      "lib32-libxshmfence",
+      "lib32-zstd"
+    ]
+  },
+  {
+    "package_name": "lib32-ncurses",
+    "dependencies": [
+      "lib32-gcc-libs",
+      "lib32-glibc",
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "lib32-nvidia-utils",
+    "dependencies": [
+      "lib32-zlib",
+      "lib32-gcc-libs",
+      "lib32-libglvnd",
+      "mhwd",
+      "nvidia-utils"
+    ]
+  },
+  {
+    "package_name": "lib32-openssl",
+    "dependencies": [
+      "lib32-glibc",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "lib32-pam",
+    "dependencies": [
+      "lib32-libtirpc",
+      "lib32-libxcrypt",
+      "pam"
+    ]
+  },
+  {
+    "package_name": "lib32-readline",
+    "dependencies": [
+      "lib32-glibc",
+      "lib32-ncurses",
+      "readline"
+    ]
+  },
+  {
+    "package_name": "lib32-systemd",
+    "dependencies": [
+      "lib32-gcc-libs",
+      "lib32-libcap",
+      "lib32-libgcrypt",
+      "lib32-libxcrypt",
+      "lib32-xz",
+      "lib32-zstd",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "lib32-util-linux",
+    "dependencies": [
+      "lib32-glibc",
+      "util-linux",
+      "lib32-libxcrypt"
+    ]
+  },
+  {
+    "package_name": "lib32-vulkan-icd-loader",
+    "dependencies": [
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "lib32-vulkan-intel",
+    "dependencies": [
+      "lib32-wayland",
+      "lib32-libx11",
+      "lib32-libxshmfence",
+      "lib32-libdrm",
+      "lib32-zstd",
+      "lib32-systemd"
+    ]
+  },
+  {
+    "package_name": "lib32-vulkan-radeon",
+    "dependencies": [
+      "lib32-wayland",
+      "lib32-libx11",
+      "lib32-libxshmfence",
+      "lib32-libelf",
+      "lib32-libdrm",
+      "lib32-zstd",
+      "lib32-llvm-libs",
+      "lib32-systemd",
+      "vulkan-radeon"
+    ]
+  },
+  {
+    "package_name": "lib32-wayland",
+    "dependencies": [
+      "lib32-glibc",
+      "lib32-libffi",
+      "lib32-expat",
+      "lib32-libxml2",
+      "wayland"
+    ]
+  },
+  {
+    "package_name": "lib32-xz",
+    "dependencies": [
+      "lib32-glibc",
+      "xz"
+    ]
+  },
+  {
+    "package_name": "lib32-zlib",
+    "dependencies": [
+      "lib32-glibc",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "lib32-zstd",
+    "dependencies": [
+      "zstd",
+      "lib32-glibc"
+    ]
+  },
+  {
+    "package_name": "libadwaita",
+    "dependencies": [
+      "gtk4",
+      "libgtk-4.so"
+    ]
+  },
+  {
+    "package_name": "libaio",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libappindicator-gtk3",
+    "dependencies": [
+      "libdbusmenu-gtk3",
+      "libindicator-gtk3"
+    ]
+  },
+  {
+    "package_name": "libarchive",
+    "dependencies": [
+      "acl",
+      "libacl.so",
+      "bzip2",
+      "expat",
+      "lz4",
+      "openssl",
+      "libcrypto.so",
+      "xz",
+      "zlib",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "libass",
+    "dependencies": [
+      "fontconfig",
+      "fribidi",
+      "glib2",
+      "glibc",
+      "harfbuzz",
+      "libfreetype.so"
+    ]
+  },
+  {
+    "package_name": "libassuan",
+    "dependencies": [
+      "glibc",
+      "libgpg-error"
+    ]
+  },
+  {
+    "package_name": "libasyncns",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libatasmart",
+    "dependencies": [
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "libavc1394",
+    "dependencies": [
+      "libraw1394"
+    ]
+  },
+  {
+    "package_name": "libavif",
+    "dependencies": [
+      "glibc",
+      "aom",
+      "dav1d",
+      "rav1e",
+      "svt-av1",
+      "zlib",
+      "libpng",
+      "libjpeg",
+      "libyuv"
+    ]
+  },
+  {
+    "package_name": "libblockdev",
+    "dependencies": [
+      "btrfs-progs",
+      "dosfstools",
+      "dmraid",
+      "gptfdisk",
+      "libbytesize",
+      "lvm2",
+      "mdadm",
+      "ndctl",
+      "parted",
+      "volume_key",
+      "xfsprogs",
+      "kmod",
+      "libyaml"
+    ]
+  },
+  {
+    "package_name": "libbluray",
+    "dependencies": [
+      "fontconfig",
+      "libfreetype.so",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "libbpf",
+    "dependencies": [
+      "glibc",
+      "libelf",
+      "linux-api-headers"
+    ]
+  },
+  {
+    "package_name": "libbs2b",
+    "dependencies": [
+      "libsndfile",
+      "gcc-libs",
+      "libsndfile.so"
+    ]
+  },
+  {
+    "package_name": "libbsd",
+    "dependencies": [
+      "glibc",
+      "libmd"
+    ]
+  },
+  {
+    "package_name": "libbytesize",
+    "dependencies": [
+      "mpfr",
+      "pcre2"
+    ]
+  },
+  {
+    "package_name": "libcanberra",
+    "dependencies": [
+      "libvorbis",
+      "libltdl",
+      "alsa-lib",
+      "libpulse",
+      "tdb",
+      "sound-theme-freedesktop"
+    ]
+  },
+  {
+    "package_name": "libcap",
+    "dependencies": [
+      "glibc",
+      "pam"
+    ]
+  },
+  {
+    "package_name": "libcap-ng",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libcddb",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libcdio",
+    "dependencies": [
+      "ncurses",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libcdio-paranoia",
+    "dependencies": [
+      "libcdio"
+    ]
+  },
+  {
+    "package_name": "libcloudproviders",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libcolord",
+    "dependencies": [
+      "glib2",
+      "lcms2",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "libconfig",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libcue",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libcups",
+    "dependencies": [
+      "gnutls",
+      "avahi"
+    ]
+  },
+  {
+    "package_name": "libdaemon"
+  },
+  {
+    "package_name": "libdatrie",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libdbusmenu-glib",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libdbusmenu-gtk3",
+    "dependencies": [
+      "libdbusmenu-glib",
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "libde265",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libdiscid",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libdrm",
+    "dependencies": [
+      "libpciaccess"
+    ]
+  },
+  {
+    "package_name": "libedit",
+    "dependencies": [
+      "glibc",
+      "ncurses",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "libelf",
+    "dependencies": [
+      "bzip2",
+      "libbz2.so",
+      "curl",
+      "libcurl.so",
+      "gcc-libs",
+      "glibc",
+      "xz",
+      "liblzma.so",
+      "zlib",
+      "zstd",
+      "libzstd.so"
+    ]
+  },
+  {
+    "package_name": "libepoxy",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libev",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libevdev",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libevent",
+    "dependencies": [
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "libexif",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libffi",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libfm",
+    "dependencies": [
+      "libexif",
+      "libfm-extra",
+      "menu-cache"
+    ]
+  },
+  {
+    "package_name": "libfm-extra",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libfm-gtk2",
+    "dependencies": [
+      "gtk2",
+      "menu-cache",
+      "libfm"
+    ]
+  },
+  {
+    "package_name": "libfontenc",
+    "dependencies": [
+      "zlib",
+      "xorg-fonts-encodings"
+    ]
+  },
+  {
+    "package_name": "libgcrypt",
+    "dependencies": [
+      "libgpg-error"
+    ]
+  },
+  {
+    "package_name": "libgdiplus",
+    "dependencies": [
+      "libtiff",
+      "libjpeg",
+      "libpng",
+      "cairo",
+      "giflib",
+      "libgif.so",
+      "glib2",
+      "libexif",
+      "zlib",
+      "freetype2"
+    ]
+  },
+  {
+    "package_name": "libgexiv2",
+    "dependencies": [
+      "exiv2",
+      "glib2",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libexiv2.so"
+    ]
+  },
+  {
+    "package_name": "libgit2",
+    "dependencies": [
+      "gcc-libs",
+      "glibc",
+      "http-parser",
+      "zlib",
+      "libssh2",
+      "libssh2.so",
+      "openssl",
+      "libcrypto.so",
+      "libssl.so",
+      "pcre2",
+      "libpcre2-8.so"
+    ]
+  },
+  {
+    "package_name": "libglvnd",
+    "dependencies": [
+      "libxext",
+      "mesa",
+      "opengl-driver"
+    ]
+  },
+  {
+    "package_name": "libgpg-error",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "libgphoto2",
+    "dependencies": [
+      "curl",
+      "gd",
+      "libexif",
+      "libjpeg",
+      "libltdl",
+      "libusb",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "libgrss",
+    "dependencies": [
+      "glib2",
+      "libsoup",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "libgsf",
+    "dependencies": [
+      "libxml2",
+      "gdk-pixbuf2",
+      "bzip2"
+    ]
+  },
+  {
+    "package_name": "libgtop",
+    "dependencies": [
+      "glib2",
+      "libxau"
+    ]
+  },
+  {
+    "package_name": "libgudev",
+    "dependencies": [
+      "systemd",
+      "glib2",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libudev.so"
+    ]
+  },
+  {
+    "package_name": "libgxps",
+    "dependencies": [
+      "gtk3",
+      "libarchive",
+      "libjpeg-turbo",
+      "libtiff",
+      "lcms2"
+    ]
+  },
+  {
+    "package_name": "libhandy",
+    "dependencies": [
+      "glib2",
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "libheif",
+    "dependencies": [
+      "libde265",
+      "x265",
+      "aom"
+    ]
+  },
+  {
+    "package_name": "libice",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libid3tag",
+    "dependencies": [
+      "glibc",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "libidn",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libidn2",
+    "dependencies": [
+      "libunistring",
+      "libunistring.so"
+    ]
+  },
+  {
+    "package_name": "libiec61883",
+    "dependencies": [
+      "libraw1394"
+    ]
+  },
+  {
+    "package_name": "libimagequant",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libimobiledevice",
+    "dependencies": [
+      "gnutls",
+      "libgcrypt",
+      "libplist",
+      "libtasn1",
+      "libusbmuxd"
+    ]
+  },
+  {
+    "package_name": "libindicator-gtk3",
+    "dependencies": [
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "libinih",
+    "dependencies": [
+      "gcc-libs",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libinput",
+    "dependencies": [
+      "mtdev",
+      "systemd",
+      "libevdev",
+      "libwacom"
+    ]
+  },
+  {
+    "package_name": "libiptcdata",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libisl",
+    "dependencies": [
+      "gmp"
+    ]
+  },
+  {
+    "package_name": "libjpeg-turbo",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libksba",
+    "dependencies": [
+      "bash",
+      "libgpg-error",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libldap",
+    "dependencies": [
+      "libsasl",
+      "e2fsprogs"
+    ]
+  },
+  {
+    "package_name": "liblqr",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libluv",
+    "dependencies": [
+      "libuv",
+      "luajit"
+    ]
+  },
+  {
+    "package_name": "libmad",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libmanette",
+    "dependencies": [
+      "libevdev",
+      "libgudev"
+    ]
+  },
+  {
+    "package_name": "libmbim",
+    "dependencies": [
+      "glib2",
+      "bash",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "libmd",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libmediainfo",
+    "dependencies": [
+      "curl",
+      "glib2",
+      "libmms",
+      "libzen",
+      "tinyxml2",
+      "graphviz"
+    ]
+  },
+  {
+    "package_name": "libmfx",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libmm-glib",
+    "dependencies": [
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "libmms",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libmnl",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libmodplug",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libmpc",
+    "dependencies": [
+      "mpfr"
+    ]
+  },
+  {
+    "package_name": "libmpdclient",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libmtp",
+    "dependencies": [
+      "libusb"
+    ]
+  },
+  {
+    "package_name": "libnautilus-extension",
+    "dependencies": [
+      "glib2",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libndp",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libnet",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "libnetfilter_conntrack",
+    "dependencies": [
+      "libnfnetlink",
+      "libmnl"
+    ]
+  },
+  {
+    "package_name": "libnewt",
+    "dependencies": [
+      "gpm",
+      "libxcrypt",
+      "popt",
+      "slang"
+    ]
+  },
+  {
+    "package_name": "libnfnetlink",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libnftnl",
+    "dependencies": [
+      "libmnl"
+    ]
+  },
+  {
+    "package_name": "libnghttp2",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libnice",
+    "dependencies": [
+      "glib2",
+      "gnutls",
+      "gupnp-igd"
+    ]
+  },
+  {
+    "package_name": "libnl",
+    "dependencies": [
+      "glibc",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libnm",
+    "dependencies": [
+      "glib2",
+      "jansson",
+      "nss",
+      "systemd-libs",
+      "util-linux-libs"
+    ]
+  },
+  {
+    "package_name": "libnma",
+    "dependencies": [
+      "libnma-common",
+      "gtk3"
+    ]
+  },
+  {
+    "package_name": "libnma-common",
+    "dependencies": [
+      "dconf",
+      "gcr-4",
+      "iso-codes",
+      "libnm",
+      "mobile-broadband-provider-info"
+    ]
+  },
+  {
+    "package_name": "libnotify",
+    "dependencies": [
+      "gdk-pixbuf2",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libgdk_pixbuf-2.0.so"
+    ]
+  },
+  {
+    "package_name": "libnsl",
+    "dependencies": [
+      "glibc",
+      "libtirpc"
+    ]
+  },
+  {
+    "package_name": "libogg",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libomxil-bellagio",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libosinfo",
+    "dependencies": [
+      "glib2",
+      "hwdata",
+      "libsoup3",
+      "libxslt",
+      "osinfo-db"
+    ]
+  },
+  {
+    "package_name": "libp11-kit",
+    "dependencies": [
+      "glibc",
+      "libtasn1",
+      "libffi"
+    ]
+  },
+  {
+    "package_name": "libpamac",
+    "dependencies": [
+      "glib2",
+      "json-glib",
+      "libsoup3",
+      "dbus-glib",
+      "polkit",
+      "appstream-glib",
+      "libalpm.so",
+      "pacman-mirrors",
+      "git"
+    ]
+  },
+  {
+    "package_name": "libpaper",
+    "dependencies": [
+      "sh",
+      "run-parts"
+    ]
+  },
+  {
+    "package_name": "libpcap",
+    "dependencies": [
+      "glibc",
+      "libnl",
+      "sh",
+      "libdbus-1.so"
+    ]
+  },
+  {
+    "package_name": "libpciaccess",
+    "dependencies": [
+      "glibc",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "libpeas",
+    "dependencies": [
+      "gtk3",
+      "gobject-introspection-runtime"
+    ]
+  },
+  {
+    "package_name": "libpgm",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libpipeline",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libplist",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libpng",
+    "dependencies": [
+      "zlib",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "libportal",
+    "dependencies": [
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "libportal-gtk3",
+    "dependencies": [
+      "libportal",
+      "libgdk-3.so",
+      "libgtk-3.so"
+    ]
+  },
+  {
+    "package_name": "libportal-gtk4",
+    "dependencies": [
+      "libportal",
+      "libgtk-4.so"
+    ]
+  },
+  {
+    "package_name": "libproxy",
+    "dependencies": [
+      "dbus",
+      "gcc-libs",
+      "glib2",
+      "zlib",
+      "duktape"
+    ]
+  },
+  {
+    "package_name": "libpsl",
+    "dependencies": [
+      "libidn2",
+      "libunistring",
+      "libidn2.so",
+      "libunistring.so"
+    ]
+  },
+  {
+    "package_name": "libptytty",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libpulse",
+    "dependencies": [
+      "dbus",
+      "libasyncns",
+      "libcap",
+      "libxcb",
+      "libsm",
+      "libsndfile",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "libqmi",
+    "dependencies": [
+      "libmbim",
+      "libqrtr-glib",
+      "libgudev"
+    ]
+  },
+  {
+    "package_name": "libqrtr-glib",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libraqm",
+    "dependencies": [
+      "freetype2",
+      "fribidi"
+    ]
+  },
+  {
+    "package_name": "libraw1394",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "librsvg",
+    "dependencies": [
+      "cairo",
+      "freetype2",
+      "gdk-pixbuf2",
+      "glib2",
+      "harfbuzz",
+      "libxml2",
+      "pango"
+    ]
+  },
+  {
+    "package_name": "libsamplerate",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libsasl",
+    "dependencies": [
+      "gdbm",
+      "libgdbm.so",
+      "glibc",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "libseccomp",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libsecret",
+    "dependencies": [
+      "glib2",
+      "libgcrypt",
+      "tpm2-tss"
+    ]
+  },
+  {
+    "package_name": "libsigc++",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libsm",
+    "dependencies": [
+      "libice",
+      "util-linux-libs"
+    ]
+  },
+  {
+    "package_name": "libsndfile",
+    "dependencies": [
+      "glibc",
+      "flac",
+      "libFLAC.so",
+      "lame",
+      "libmp3lame.so",
+      "libogg",
+      "libogg.so",
+      "libvorbis",
+      "libvorbis.so",
+      "libvorbisenc.so",
+      "mpg123",
+      "libmpg123.so",
+      "opus",
+      "libopus.so"
+    ]
+  },
+  {
+    "package_name": "libsodium",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libsoup",
+    "dependencies": [
+      "brotli",
+      "glib-networking",
+      "glib2",
+      "krb5",
+      "libpsl",
+      "libsysprof-capture",
+      "libxml2",
+      "sqlite",
+      "libbrotlidec.so",
+      "libgssapi_krb5.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libpsl.so"
+    ]
+  },
+  {
+    "package_name": "libsoup3",
+    "dependencies": [
+      "brotli",
+      "glib-networking",
+      "glib2",
+      "krb5",
+      "libnghttp2",
+      "libpsl",
+      "libsysprof-capture",
+      "sqlite",
+      "libbrotlidec.so",
+      "libgssapi_krb5.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libpsl.so"
+    ]
+  },
+  {
+    "package_name": "libsoxr",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libspectre",
+    "dependencies": [
+      "ghostscript"
+    ]
+  },
+  {
+    "package_name": "libssh",
+    "dependencies": [
+      "zlib",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "libssh2",
+    "dependencies": [
+      "openssl",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "libstemmer",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libsynctex",
+    "dependencies": [
+      "glibc",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "libsysprof-capture"
+  },
+  {
+    "package_name": "libtasn1",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libteam",
+    "dependencies": [
+      "libnl",
+      "libdaemon",
+      "jansson",
+      "libdbus",
+      "bash",
+      "zeromq"
+    ]
+  },
+  {
+    "package_name": "libtermkey",
+    "dependencies": [
+      "unibilium",
+      "libunibilium.so"
+    ]
+  },
+  {
+    "package_name": "libthai",
+    "dependencies": [
+      "libdatrie"
+    ]
+  },
+  {
+    "package_name": "libtheora",
+    "dependencies": [
+      "libogg"
+    ]
+  },
+  {
+    "package_name": "libtiff",
+    "dependencies": [
+      "glibc",
+      "libjpeg-turbo",
+      "libjpeg.so",
+      "zlib",
+      "xz",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "libtirpc",
+    "dependencies": [
+      "krb5"
+    ]
+  },
+  {
+    "package_name": "libtool",
+    "dependencies": [
+      "sh",
+      "tar",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libunistring",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libunwind",
+    "dependencies": [
+      "xz",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "liburcu"
+  },
+  {
+    "package_name": "libusb",
+    "dependencies": [
+      "glibc",
+      "libudev.so"
+    ]
+  },
+  {
+    "package_name": "libusbmuxd",
+    "dependencies": [
+      "libusb",
+      "libplist"
+    ]
+  },
+  {
+    "package_name": "libutempter",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libuv",
+    "dependencies": [
+      "glibc",
+      "libnsl"
+    ]
+  },
+  {
+    "package_name": "libva",
+    "dependencies": [
+      "libdrm",
+      "libgl",
+      "libx11",
+      "libxext",
+      "libxfixes",
+      "wayland"
+    ]
+  },
+  {
+    "package_name": "libva-mesa-driver",
+    "dependencies": [
+      "libdrm",
+      "libx11",
+      "llvm-libs",
+      "expat",
+      "libelf",
+      "libxshmfence",
+      "libexpat.so"
+    ]
+  },
+  {
+    "package_name": "libva-vdpau-driver",
+    "dependencies": [
+      "libgl",
+      "libvdpau",
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libvdpau",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libverto",
+    "dependencies": [
+      "glibc",
+      "libevent"
+    ]
+  },
+  {
+    "package_name": "libvorbis",
+    "dependencies": [
+      "libogg.so"
+    ]
+  },
+  {
+    "package_name": "libvpx",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libvterm",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libvterm01",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libwacom",
+    "dependencies": [
+      "glib2",
+      "systemd",
+      "libgudev"
+    ]
+  },
+  {
+    "package_name": "libwbclient",
+    "dependencies": [
+      "libbsd"
+    ]
+  },
+  {
+    "package_name": "libwebp",
+    "dependencies": [
+      "libpng",
+      "libjpeg",
+      "libtiff",
+      "giflib"
+    ]
+  },
+  {
+    "package_name": "libwnck3",
+    "dependencies": [
+      "gtk3",
+      "startup-notification",
+      "libxres"
+    ]
+  },
+  {
+    "package_name": "libwpe",
+    "dependencies": [
+      "libxkbcommon",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libx11",
+    "dependencies": [
+      "libxcb",
+      "xorgproto"
+    ]
+  },
+  {
+    "package_name": "libx86emu"
+  },
+  {
+    "package_name": "libxau",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libxaw",
+    "dependencies": [
+      "libxmu",
+      "libxpm"
+    ]
+  },
+  {
+    "package_name": "libxcb",
+    "dependencies": [
+      "xcb-proto",
+      "libxdmcp",
+      "libxau"
+    ]
+  },
+  {
+    "package_name": "libxcomposite",
+    "dependencies": [
+      "libxfixes"
+    ]
+  },
+  {
+    "package_name": "libxcrypt",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libxcursor",
+    "dependencies": [
+      "libxfixes",
+      "libxrender",
+      "default-cursors"
+    ]
+  },
+  {
+    "package_name": "libxcvt",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libxdamage",
+    "dependencies": [
+      "libxfixes"
+    ]
+  },
+  {
+    "package_name": "libxdmcp",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libxext",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libxfce4ui",
+    "dependencies": [
+      "libxfce4util",
+      "gtk3",
+      "xfconf",
+      "libsm",
+      "startup-notification",
+      "libgtop",
+      "libepoxy",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "libxfce4util",
+    "dependencies": [
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "libxfixes",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libxfont2",
+    "dependencies": [
+      "freetype2",
+      "libfontenc"
+    ]
+  },
+  {
+    "package_name": "libxft",
+    "dependencies": [
+      "fontconfig",
+      "libxrender"
+    ]
+  },
+  {
+    "package_name": "libxi",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxinerama",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxkbcommon",
+    "dependencies": [
+      "libxml2",
+      "xkeyboard-config"
+    ]
+  },
+  {
+    "package_name": "libxkbcommon-x11",
+    "dependencies": [
+      "libxcb",
+      "libxkbcommon",
+      "libxkbcommon.so"
+    ]
+  },
+  {
+    "package_name": "libxkbfile",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libxklavier",
+    "dependencies": [
+      "glib2",
+      "libxkbfile",
+      "libxml2",
+      "xkeyboard-config",
+      "libxi",
+      "iso-codes"
+    ]
+  },
+  {
+    "package_name": "libxml2",
+    "dependencies": [
+      "icu",
+      "ncurses",
+      "readline",
+      "xz",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "libxmu",
+    "dependencies": [
+      "libxext",
+      "libxt"
+    ]
+  },
+  {
+    "package_name": "libxnvctrl",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxpm",
+    "dependencies": [
+      "libxt",
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxrandr",
+    "dependencies": [
+      "libxext",
+      "libxrender"
+    ]
+  },
+  {
+    "package_name": "libxrender",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libxres",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxshmfence",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libxslt",
+    "dependencies": [
+      "libgcrypt",
+      "libxml2",
+      "xz"
+    ]
+  },
+  {
+    "package_name": "libxss",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxt",
+    "dependencies": [
+      "libsm",
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "libxtst",
+    "dependencies": [
+      "libxext",
+      "libxi",
+      "libxfixes"
+    ]
+  },
+  {
+    "package_name": "libxv",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxvmc",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libxxf86vm",
+    "dependencies": [
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "libyaml",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "libyuv",
+    "dependencies": [
+      "gcc-libs",
+      "libjpeg"
+    ]
+  },
+  {
+    "package_name": "libzen",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "libzip",
+    "dependencies": [
+      "zlib",
+      "bzip2",
+      "zstd",
+      "openssl",
+      "gnutls"
+    ]
+  },
+  {
+    "package_name": "licenses"
+  },
+  {
+    "package_name": "lightdm",
+    "dependencies": [
+      "glib2",
+      "libgcrypt",
+      "libx11",
+      "libxcb",
+      "libxdmcp",
+      "libxklavier",
+      "pam",
+      "polkit",
+      "xorg-server",
+      "xorg-xmodmap",
+      "xorg-xrdb"
+    ]
+  },
+  {
+    "package_name": "lightdm-slick-greeter",
+    "dependencies": [
+      "cairo",
+      "freetype2",
+      "gtk3",
+      "libcanberra",
+      "libxext",
+      "lightdm",
+      "pixman",
+      "python",
+      "xorg-server"
+    ]
+  },
+  {
+    "package_name": "linux-api-headers"
+  },
+  {
+    "package_name": "linux-firmware",
+    "dependencies": [
+      "linux-firmware-whence"
+    ]
+  },
+  {
+    "package_name": "linux-firmware-whence"
+  },
+  {
+    "package_name": "linux515",
+    "dependencies": [
+      "coreutils",
+      "linux-firmware",
+      "kmod",
+      "initramfs"
+    ]
+  },
+  {
+    "package_name": "linux515-nvidia",
+    "dependencies": [
+      "linux515",
+      "nvidia-utils"
+    ]
+  },
+  {
+    "package_name": "llvm",
+    "dependencies": [
+      "llvm-libs",
+      "perl"
+    ]
+  },
+  {
+    "package_name": "llvm-libs",
+    "dependencies": [
+      "gcc-libs",
+      "zlib",
+      "zstd",
+      "libffi",
+      "libedit",
+      "ncurses",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "lm_sensors"
+  },
+  {
+    "package_name": "lmdb",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "logrotate",
+    "dependencies": [
+      "popt",
+      "gzip",
+      "acl"
+    ]
+  },
+  {
+    "package_name": "lsb-release",
+    "dependencies": [
+      "sh"
+    ]
+  },
+  {
+    "package_name": "lshw",
+    "dependencies": [
+      "gcc-libs",
+      "hwdata"
+    ]
+  },
+  {
+    "package_name": "lua",
+    "dependencies": [
+      "readline"
+    ]
+  },
+  {
+    "package_name": "luajit",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "luit",
+    "dependencies": [
+      "libfontenc"
+    ]
+  },
+  {
+    "package_name": "lvm2",
+    "dependencies": [
+      "bash",
+      "device-mapper",
+      "systemd-libs",
+      "libudev.so",
+      "util-linux-libs",
+      "libblkid.so",
+      "readline",
+      "libreadline.so",
+      "thin-provisioning-tools",
+      "libaio",
+      "libaio.so"
+    ]
+  },
+  {
+    "package_name": "lxappearance",
+    "dependencies": [
+      "gtk2"
+    ]
+  },
+  {
+    "package_name": "lxinput",
+    "dependencies": [
+      "gtk2"
+    ]
+  },
+  {
+    "package_name": "lxmenu-data"
+  },
+  {
+    "package_name": "lz4",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "lzo",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "m4",
+    "dependencies": [
+      "glibc",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "maia-console",
+    "dependencies": [
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "mailcap"
+  },
+  {
+    "package_name": "make",
+    "dependencies": [
+      "glibc",
+      "guile"
+    ]
+  },
+  {
+    "package_name": "man-db",
+    "dependencies": [
+      "bash",
+      "gdbm",
+      "zlib",
+      "groff",
+      "libpipeline",
+      "less",
+      "libseccomp"
+    ]
+  },
+  {
+    "package_name": "man-pages"
+  },
+  {
+    "package_name": "manjaro-alsa",
+    "dependencies": [
+      "alsa-firmware",
+      "alsa-lib",
+      "alsa-oss",
+      "alsa-plugins",
+      "alsa-utils"
+    ]
+  },
+  {
+    "package_name": "manjaro-base-skel"
+  },
+  {
+    "package_name": "manjaro-browser-settings"
+  },
+  {
+    "package_name": "manjaro-firmware"
+  },
+  {
+    "package_name": "manjaro-hotfixes",
+    "dependencies": [
+      "systemd",
+      "dbus"
+    ]
+  },
+  {
+    "package_name": "manjaro-i3-settings",
+    "dependencies": [
+      "adapta-maia-theme",
+      "conky-i3",
+      "dmenu-manjaro",
+      "dunst",
+      "gsfonts",
+      "i3-default-artwork",
+      "i3exit",
+      "i3-scripts",
+      "i3-scrot",
+      "i3-gaps",
+      "i3-help",
+      "i3status-manjaro",
+      "manjaro-base-skel",
+      "ttf-terminus-nerd",
+      "nitrogen",
+      "papirus-maia-icon-theme",
+      "picom",
+      "urxvt-perls",
+      "xcursor-breeze",
+      "xorg-fonts-misc",
+      "xorg-mkfontscale"
+    ]
+  },
+  {
+    "package_name": "manjaro-keyring",
+    "dependencies": [
+      "pacman"
+    ]
+  },
+  {
+    "package_name": "manjaro-ranger-settings",
+    "dependencies": [
+      "ranger",
+      "poppler",
+      "python-ueberzug",
+      "highlight",
+      "ttf-terminus-nerd",
+      "perl-image-exiftool",
+      "mediainfo"
+    ]
+  },
+  {
+    "package_name": "manjaro-release",
+    "dependencies": [
+      "lsb-release"
+    ]
+  },
+  {
+    "package_name": "manjaro-settings-manager",
+    "dependencies": [
+      "icu",
+      "qt5-base",
+      "hwinfo",
+      "kitemmodels",
+      "kauth",
+      "kcoreaddons",
+      "ckbcomp",
+      "xdg-utils"
+    ]
+  },
+  {
+    "package_name": "manjaro-system",
+    "dependencies": [
+      "mkinitcpio",
+      "base"
+    ]
+  },
+  {
+    "package_name": "manjaro-zsh-config",
+    "dependencies": [
+      "zsh-autosuggestions",
+      "zsh-syntax-highlighting",
+      "zsh-completions",
+      "zsh-history-substring-search",
+      "zsh",
+      "pkgfile",
+      "ttf-noto-nerd",
+      "zsh-theme-powerlevel10k"
+    ]
+  },
+  {
+    "package_name": "markdown_previewer",
+    "dependencies": [
+      "php",
+      "zenity"
+    ]
+  },
+  {
+    "package_name": "md4c",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "mdadm",
+    "dependencies": [
+      "glibc",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "mediainfo",
+    "dependencies": [
+      "libmediainfo"
+    ]
+  },
+  {
+    "package_name": "memtest86+"
+  },
+  {
+    "package_name": "menu-cache",
+    "dependencies": [
+      "libfm-extra"
+    ]
+  },
+  {
+    "package_name": "mesa",
+    "dependencies": [
+      "libdrm",
+      "wayland",
+      "libxxf86vm",
+      "libxdamage",
+      "libxshmfence",
+      "libelf",
+      "libomxil-bellagio",
+      "libunwind",
+      "llvm-libs",
+      "lm_sensors",
+      "libglvnd",
+      "zstd",
+      "vulkan-icd-loader",
+      "libsensors.so",
+      "libexpat.so",
+      "libvulkan.so"
+    ]
+  },
+  {
+    "package_name": "mesa-demos",
+    "dependencies": [
+      "libgl",
+      "glu",
+      "freeglut"
+    ]
+  },
+  {
+    "package_name": "mesa-vdpau",
+    "dependencies": [
+      "libdrm",
+      "libx11",
+      "llvm-libs",
+      "expat",
+      "libelf",
+      "libxshmfence",
+      "libexpat.so"
+    ]
+  },
+  {
+    "package_name": "mhwd",
+    "dependencies": [
+      "hwinfo",
+      "mesa",
+      "mhwd-db",
+      "v86d",
+      "pacman"
+    ]
+  },
+  {
+    "package_name": "mhwd-amdgpu"
+  },
+  {
+    "package_name": "mhwd-ati"
+  },
+  {
+    "package_name": "mhwd-db",
+    "dependencies": [
+      "libnotify",
+      "mhwd-nvidia",
+      "mhwd-nvidia-390xx",
+      "mhwd-nvidia-470xx",
+      "mhwd-amdgpu",
+      "mhwd-ati"
+    ]
+  },
+  {
+    "package_name": "mhwd-nvidia-390xx"
+  },
+  {
+    "package_name": "mhwd-nvidia-470xx"
+  },
+  {
+    "package_name": "mhwd-nvidia"
+  },
+  {
+    "package_name": "minizip",
+    "dependencies": [
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "mkinitcpio",
+    "dependencies": [
+      "awk",
+      "mkinitcpio-busybox",
+      "kmod",
+      "util-linux",
+      "libarchive",
+      "coreutils",
+      "bash",
+      "binutils",
+      "diffutils",
+      "findutils",
+      "grep",
+      "filesystem",
+      "gzip",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "mkinitcpio-busybox",
+    "dependencies": [
+      "glibc",
+      "libxcrypt"
+    ]
+  },
+  {
+    "package_name": "mkinitcpio-openswap",
+    "dependencies": [
+      "mkinitcpio"
+    ]
+  },
+  {
+    "package_name": "mlocate",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "mobile-broadband-provider-info"
+  },
+  {
+    "package_name": "moc",
+    "dependencies": [
+      "libmad",
+      "libid3tag",
+      "jack",
+      "curl",
+      "libltdl",
+      "file"
+    ]
+  },
+  {
+    "package_name": "modemmanager",
+    "dependencies": [
+      "systemd",
+      "libgudev",
+      "polkit",
+      "ppp",
+      "libqmi",
+      "libmbim",
+      "mobile-broadband-provider-info",
+      "libmm-glib.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libgmodule-2.0.so",
+      "libsystemd.so",
+      "libgudev-1.0.so",
+      "libqmi-glib.so",
+      "libmbim-glib.so"
+    ]
+  },
+  {
+    "package_name": "mono",
+    "dependencies": [
+      "zlib",
+      "libgdiplus",
+      "sh",
+      "python",
+      "ca-certificates"
+    ]
+  },
+  {
+    "package_name": "morc_menu",
+    "dependencies": [
+      "bash",
+      "dmenu"
+    ]
+  },
+  {
+    "package_name": "mousepad",
+    "dependencies": [
+      "gtksourceview4",
+      "desktop-file-utils",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "mpfr",
+    "dependencies": [
+      "glibc",
+      "gmp"
+    ]
+  },
+  {
+    "package_name": "mpg123",
+    "dependencies": [
+      "alsa-lib"
+    ]
+  },
+  {
+    "package_name": "msgpack-c",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "mtdev",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "nano",
+    "dependencies": [
+      "ncurses",
+      "file",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "nano-syntax-highlighting",
+    "dependencies": [
+      "nano"
+    ]
+  },
+  {
+    "package_name": "nasm",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "nautilus",
+    "dependencies": [
+      "libgexiv2",
+      "gdk-pixbuf2",
+      "gst-plugins-base-libs",
+      "gnome-desktop-4",
+      "gvfs",
+      "dconf",
+      "tracker3",
+      "tracker3-miners",
+      "gnome-autoar",
+      "libadwaita",
+      "libportal-gtk4",
+      "libcloudproviders",
+      "libnautilus-extension.so"
+    ]
+  },
+  {
+    "package_name": "ncdu",
+    "dependencies": [
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "ncurses",
+    "dependencies": [
+      "glibc",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "ndctl",
+    "dependencies": [
+      "iniparser",
+      "json-c",
+      "keyutils",
+      "kmod",
+      "systemd-libs",
+      "util-linux-libs"
+    ]
+  },
+  {
+    "package_name": "neovim",
+    "dependencies": [
+      "libtermkey",
+      "libuv",
+      "msgpack-c",
+      "unibilium",
+      "libvterm",
+      "luajit",
+      "libluv",
+      "tree-sitter"
+    ]
+  },
+  {
+    "package_name": "net-tools",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "netctl",
+    "dependencies": [
+      "coreutils",
+      "iproute2",
+      "resolvconf",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "netpbm",
+    "dependencies": [
+      "perl",
+      "libpng",
+      "libtiff",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "nettle",
+    "dependencies": [
+      "gmp"
+    ]
+  },
+  {
+    "package_name": "network-manager-applet",
+    "dependencies": [
+      "libappindicator-gtk3",
+      "libmm-glib",
+      "libnma",
+      "libsecret",
+      "networkmanager",
+      "nm-connection-editor"
+    ]
+  },
+  {
+    "package_name": "networkmanager",
+    "dependencies": [
+      "audit",
+      "bluez-libs",
+      "curl",
+      "iproute2",
+      "libmm-glib",
+      "libndp",
+      "libnewt",
+      "libnm",
+      "libpsl",
+      "libteam",
+      "mobile-broadband-provider-info",
+      "wpa_supplicant"
+    ]
+  },
+  {
+    "package_name": "networkmanager-openconnect",
+    "dependencies": [
+      "libnm",
+      "libsecret",
+      "openconnect",
+      "libopenconnect.so"
+    ]
+  },
+  {
+    "package_name": "networkmanager-openvpn",
+    "dependencies": [
+      "libnm",
+      "libsecret",
+      "openvpn"
+    ]
+  },
+  {
+    "package_name": "networkmanager-pptp",
+    "dependencies": [
+      "libnm",
+      "libsecret",
+      "ppp",
+      "pptpclient"
+    ]
+  },
+  {
+    "package_name": "networkmanager-vpnc",
+    "dependencies": [
+      "libnm",
+      "libsecret",
+      "vpnc"
+    ]
+  },
+  {
+    "package_name": "nfs-utils",
+    "dependencies": [
+      "rpcbind",
+      "nfsidmap",
+      "gssproxy",
+      "libevent",
+      "device-mapper"
+    ]
+  },
+  {
+    "package_name": "nfsidmap",
+    "dependencies": [
+      "libldap",
+      "krb5"
+    ]
+  },
+  {
+    "package_name": "nftables",
+    "dependencies": [
+      "libmnl",
+      "libnftnl",
+      "gmp",
+      "readline",
+      "ncurses",
+      "jansson"
+    ]
+  },
+  {
+    "package_name": "nitrogen",
+    "dependencies": [
+      "gtkmm",
+      "hicolor-icon-theme",
+      "librsvg"
+    ]
+  },
+  {
+    "package_name": "nm-connection-editor",
+    "dependencies": [
+      "libnma"
+    ]
+  },
+  {
+    "package_name": "node-gyp",
+    "dependencies": [
+      "nodejs",
+      "nodejs-nopt",
+      "python",
+      "semver"
+    ]
+  },
+  {
+    "package_name": "nodejs",
+    "dependencies": [
+      "brotli",
+      "openssl",
+      "zlib",
+      "icu",
+      "libuv",
+      "libnghttp2",
+      "c-ares"
+    ]
+  },
+  {
+    "package_name": "nodejs-nopt",
+    "dependencies": [
+      "nodejs"
+    ]
+  },
+  {
+    "package_name": "noto-fonts"
+  },
+  {
+    "package_name": "npm",
+    "dependencies": [
+      "nodejs",
+      "node-gyp",
+      "nodejs-nopt",
+      "semver"
+    ]
+  },
+  {
+    "package_name": "npth",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "nspr",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "nss",
+    "dependencies": [
+      "nspr",
+      "p11-kit",
+      "sh",
+      "sqlite",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "nss-mdns",
+    "dependencies": [
+      "glibc",
+      "avahi"
+    ]
+  },
+  {
+    "package_name": "ntfs-3g",
+    "dependencies": [
+      "util-linux",
+      "fuse2"
+    ]
+  },
+  {
+    "package_name": "ntp",
+    "dependencies": [
+      "openssl",
+      "perl",
+      "libcap",
+      "libedit"
+    ]
+  },
+  {
+    "package_name": "nvidia-utils",
+    "dependencies": [
+      "xorg-server",
+      "libglvnd",
+      "egl-wayland",
+      "jansson",
+      "gtk3",
+      "libxv",
+      "libvdpau",
+      "libxnvctrl"
+    ]
+  },
+  {
+    "package_name": "oath-toolkit",
+    "dependencies": [
+      "glibc",
+      "pam",
+      "xmlsec"
+    ]
+  },
+  {
+    "package_name": "ocl-icd",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "oniguruma"
+  },
+  {
+    "package_name": "openconnect",
+    "dependencies": [
+      "libxml2",
+      "gnutls",
+      "libproxy",
+      "vpnc",
+      "krb5",
+      "lz4",
+      "pcsclite",
+      "stoken",
+      "tpm2-tss",
+      "oath-toolkit",
+      "libproxy",
+      "libp11-kit",
+      "xdg-utils",
+      "libstoken.so",
+      "libtss2-esys.so",
+      "libtss2-mu.so",
+      "libtss2-tctildr.so",
+      "libxml2.so",
+      "libproxy.so",
+      "libhogweed.so",
+      "libp11-kit.so",
+      "libpskc.so",
+      "libgssapi_krb5.so",
+      "libpcsclite.so"
+    ]
+  },
+  {
+    "package_name": "opencore-amr",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "openjpeg2",
+    "dependencies": [
+      "zlib",
+      "libpng",
+      "libtiff",
+      "lcms2"
+    ]
+  },
+  {
+    "package_name": "openmpi",
+    "dependencies": [
+      "gcc-libs",
+      "glibc",
+      "hwloc",
+      "libevent",
+      "libnl",
+      "openpmix",
+      "zlib",
+      "libpmix.so"
+    ]
+  },
+  {
+    "package_name": "openpmix",
+    "dependencies": [
+      "curl",
+      "libcurl.so",
+      "glibc",
+      "hwloc",
+      "jansson",
+      "libevent",
+      "libevent_core-2.1.so",
+      "libevent_pthreads-2.1.so",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "openresolv",
+    "dependencies": [
+      "bash"
+    ]
+  },
+  {
+    "package_name": "openssh",
+    "dependencies": [
+      "glibc",
+      "krb5",
+      "libkrb5.so",
+      "libgssapi_krb5.so",
+      "ldns",
+      "libedit",
+      "libxcrypt",
+      "libcrypt.so",
+      "openssl",
+      "pam",
+      "libpam.so",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "openssl",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "openvpn",
+    "dependencies": [
+      "openssl",
+      "lzo",
+      "lz4",
+      "systemd-libs",
+      "libsystemd.so",
+      "pkcs11-helper",
+      "libpkcs11-helper.so"
+    ]
+  },
+  {
+    "package_name": "opus",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "orc",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "os-prober",
+    "dependencies": [
+      "sh"
+    ]
+  },
+  {
+    "package_name": "osinfo-db"
+  },
+  {
+    "package_name": "p11-kit",
+    "dependencies": [
+      "libp11-kit",
+      "coreutils",
+      "libp11-kit.so",
+      "libsystemd.so"
+    ]
+  },
+  {
+    "package_name": "p7zip",
+    "dependencies": [
+      "gcc-libs",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "pacman",
+    "dependencies": [
+      "bash",
+      "glibc",
+      "libarchive",
+      "curl",
+      "gpgme",
+      "gettext",
+      "gawk",
+      "coreutils",
+      "gnupg",
+      "grep",
+      "fakeroot",
+      "perl",
+      "pacman-mirrors"
+    ]
+  },
+  {
+    "package_name": "pacman-mirrors",
+    "dependencies": [
+      "python",
+      "python-npyscreen",
+      "python-requests",
+      "python-certifi"
+    ]
+  },
+  {
+    "package_name": "pacui",
+    "dependencies": [
+      "pacman-contrib",
+      "expac",
+      "sudo",
+      "fzf"
+    ]
+  },
+  {
+    "package_name": "palemoon-bin",
+    "dependencies": [
+      "alsa-lib",
+      "dbus-glib",
+      "desktop-file-utils",
+      "gtk3",
+      "libxt",
+      "mime-types",
+      "nss"
+    ]
+  },
+  {
+    "package_name": "pam",
+    "dependencies": [
+      "glibc",
+      "libtirpc",
+      "pambase",
+      "audit",
+      "libaudit.so",
+      "libxcrypt",
+      "libcrypt.so"
+    ]
+  },
+  {
+    "package_name": "pamac-cli",
+    "dependencies": [
+      "libpamac"
+    ]
+  },
+  {
+    "package_name": "pamac-gtk",
+    "dependencies": [
+      "pamac-cli",
+      "libpamac",
+      "gtk3",
+      "libhandy",
+      "archlinux-appstream-data",
+      "libnotify"
+    ]
+  },
+  {
+    "package_name": "pambase"
+  },
+  {
+    "package_name": "pango",
+    "dependencies": [
+      "libthai",
+      "cairo",
+      "libxft",
+      "harfbuzz",
+      "fribidi"
+    ]
+  },
+  {
+    "package_name": "pangomm",
+    "dependencies": [
+      "pango",
+      "glibmm",
+      "cairomm",
+      "libsigc-2.0.so",
+      "libglibmm-2.4.so",
+      "libcairomm-1.0.so"
+    ]
+  },
+  {
+    "package_name": "papirus-icon-theme",
+    "dependencies": [
+      "gtk-update-icon-cache"
+    ]
+  },
+  {
+    "package_name": "papirus-maia-icon-theme",
+    "dependencies": [
+      "gtk-update-icon-cache",
+      "papirus-icon-theme"
+    ]
+  },
+  {
+    "package_name": "parted",
+    "dependencies": [
+      "device-mapper",
+      "util-linux-libs"
+    ]
+  },
+  {
+    "package_name": "patch",
+    "dependencies": [
+      "glibc",
+      "attr"
+    ]
+  },
+  {
+    "package_name": "patchutils",
+    "dependencies": [
+      "python3",
+      "pcre2"
+    ]
+  },
+  {
+    "package_name": "pavucontrol",
+    "dependencies": [
+      "gtkmm3",
+      "libsigc++",
+      "libcanberra",
+      "json-glib"
+    ]
+  },
+  {
+    "package_name": "pciutils",
+    "dependencies": [
+      "glibc",
+      "hwdata",
+      "kmod"
+    ]
+  },
+  {
+    "package_name": "pcmanfm",
+    "dependencies": [
+      "libfm-gtk2",
+      "lxmenu-data"
+    ]
+  },
+  {
+    "package_name": "pcre",
+    "dependencies": [
+      "gcc-libs",
+      "readline",
+      "zlib",
+      "bzip2",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "pcre2",
+    "dependencies": [
+      "readline",
+      "zlib",
+      "bzip2",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "pcsclite",
+    "dependencies": [
+      "libsystemd.so",
+      "libudev.so"
+    ]
+  },
+  {
+    "package_name": "perl",
+    "dependencies": [
+      "gdbm",
+      "db5.3",
+      "glibc",
+      "libxcrypt",
+      "libcrypt.so"
+    ]
+  },
+  {
+    "package_name": "perl-clone",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-encode-locale",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-error",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-file-basedir",
+    "dependencies": [
+      "perl-ipc-system-simple"
+    ]
+  },
+  {
+    "package_name": "perl-file-desktopentry",
+    "dependencies": [
+      "perl-file-basedir",
+      "perl-uri"
+    ]
+  },
+  {
+    "package_name": "perl-file-listing",
+    "dependencies": [
+      "perl",
+      "perl-http-date"
+    ]
+  },
+  {
+    "package_name": "perl-file-mimeinfo",
+    "dependencies": [
+      "perl-encode-locale",
+      "perl-file-basedir",
+      "perl-file-desktopentry",
+      "shared-mime-info"
+    ]
+  },
+  {
+    "package_name": "perl-html-parser",
+    "dependencies": [
+      "perl-html-tagset",
+      "perl-http-message",
+      "perl-uri"
+    ]
+  },
+  {
+    "package_name": "perl-html-tagset",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-http-cookies",
+    "dependencies": [
+      "perl",
+      "perl-http-date",
+      "perl-http-message"
+    ]
+  },
+  {
+    "package_name": "perl-http-daemon",
+    "dependencies": [
+      "perl",
+      "perl-http-date",
+      "perl-http-message",
+      "perl-lwp-mediatypes"
+    ]
+  },
+  {
+    "package_name": "perl-http-date",
+    "dependencies": [
+      "perl-timedate"
+    ]
+  },
+  {
+    "package_name": "perl-http-message",
+    "dependencies": [
+      "perl",
+      "perl-clone",
+      "perl-encode-locale",
+      "perl-http-date",
+      "perl-io-html",
+      "perl-lwp-mediatypes",
+      "perl-uri"
+    ]
+  },
+  {
+    "package_name": "perl-http-negotiate",
+    "dependencies": [
+      "perl",
+      "perl-http-message"
+    ]
+  },
+  {
+    "package_name": "perl-image-exiftool",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-io-html",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-ipc-system-simple",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-libwww",
+    "dependencies": [
+      "perl",
+      "perl-encode-locale",
+      "perl-file-listing",
+      "perl-html-parser",
+      "perl-http-cookies",
+      "perl-http-daemon",
+      "perl-http-date",
+      "perl-http-negotiate",
+      "perl-lwp-mediatypes",
+      "perl-net-http",
+      "perl-try-tiny",
+      "perl-uri",
+      "perl-www-robotrules"
+    ]
+  },
+  {
+    "package_name": "perl-lwp-mediatypes",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-mailtools",
+    "dependencies": [
+      "perl-timedate"
+    ]
+  },
+  {
+    "package_name": "perl-net-http",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-timedate",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-try-tiny",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-uri",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "perl-www-robotrules",
+    "dependencies": [
+      "perl",
+      "perl-uri"
+    ]
+  },
+  {
+    "package_name": "perl-xml-parser",
+    "dependencies": [
+      "perl-libwww",
+      "expat"
+    ]
+  },
+  {
+    "package_name": "perl-xml-writer",
+    "dependencies": [
+      "perl"
+    ]
+  },
+  {
+    "package_name": "php",
+    "dependencies": [
+      "libxml2",
+      "curl",
+      "libzip",
+      "pcre2",
+      "argon2",
+      "oniguruma"
+    ]
+  },
+  {
+    "package_name": "picom",
+    "dependencies": [
+      "hicolor-icon-theme",
+      "libconfig",
+      "libdbus",
+      "libev",
+      "libgl",
+      "pcre",
+      "pixman",
+      "xcb-util-image",
+      "xcb-util-renderutil"
+    ]
+  },
+  {
+    "package_name": "pinentry",
+    "dependencies": [
+      "glibc",
+      "ncurses",
+      "libcap",
+      "libassuan",
+      "libsecret",
+      "glib2",
+      "libsecret-1.so",
+      "libcap.so",
+      "libncursesw.so",
+      "libassuan.so",
+      "libglib-2.0.so"
+    ]
+  },
+  {
+    "package_name": "pixman",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "pkcs11-helper",
+    "dependencies": [
+      "gnutls",
+      "nss",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "pkgconf",
+    "dependencies": [
+      "glibc",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "pkgfile",
+    "dependencies": [
+      "libarchive",
+      "curl",
+      "pcre",
+      "pacman"
+    ]
+  },
+  {
+    "package_name": "polkit",
+    "dependencies": [
+      "duktape",
+      "expat",
+      "glib2",
+      "pam",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "polkit-gnome",
+    "dependencies": [
+      "gtk3",
+      "polkit"
+    ]
+  },
+  {
+    "package_name": "polkit-qt5",
+    "dependencies": [
+      "polkit",
+      "qt5-base"
+    ]
+  },
+  {
+    "package_name": "polybar",
+    "dependencies": [
+      "libuv",
+      "cairo",
+      "xcb-util-image",
+      "xcb-util-wm",
+      "xcb-util-xrm",
+      "xcb-util-cursor",
+      "alsa-lib",
+      "libpulse",
+      "libmpdclient",
+      "libnl",
+      "jsoncpp",
+      "curl"
+    ]
+  },
+  {
+    "package_name": "poppler",
+    "dependencies": [
+      "libjpeg",
+      "gcc-libs",
+      "cairo",
+      "fontconfig",
+      "openjpeg2",
+      "lcms2",
+      "nss",
+      "curl"
+    ]
+  },
+  {
+    "package_name": "poppler-data"
+  },
+  {
+    "package_name": "poppler-glib",
+    "dependencies": [
+      "poppler",
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "popt",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "postgresql-libs",
+    "dependencies": [
+      "krb5",
+      "openssl",
+      "readline",
+      "zlib",
+      "libldap"
+    ]
+  },
+  {
+    "package_name": "powertop",
+    "dependencies": [
+      "gcc-libs",
+      "libnl",
+      "ncurses",
+      "pciutils"
+    ]
+  },
+  {
+    "package_name": "ppp",
+    "dependencies": [
+      "glibc",
+      "libpcap",
+      "libxcrypt",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "pptpclient",
+    "dependencies": [
+      "ppp",
+      "iproute2",
+      "perl"
+    ]
+  },
+  {
+    "package_name": "procps-ng",
+    "dependencies": [
+      "glibc",
+      "ncurses",
+      "libncursesw.so",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "psmisc",
+    "dependencies": [
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "pulseaudio",
+    "dependencies": [
+      "libpulse",
+      "rtkit",
+      "libltdl",
+      "speexdsp",
+      "tdb",
+      "orc",
+      "libsoxr",
+      "webrtc-audio-processing",
+      "libxtst",
+      "fftw",
+      "alsa-lib"
+    ]
+  },
+  {
+    "package_name": "pulseaudio-control",
+    "dependencies": [
+      "bash",
+      "libpulse",
+      "pulseaudio"
+    ]
+  },
+  {
+    "package_name": "python",
+    "dependencies": [
+      "bzip2",
+      "expat",
+      "gdbm",
+      "libffi",
+      "libnsl",
+      "libxcrypt",
+      "openssl",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "python-alembic",
+    "dependencies": [
+      "python",
+      "python-mako",
+      "python-sqlalchemy",
+      "python-editor",
+      "python-dateutil"
+    ]
+  },
+  {
+    "package_name": "python-appdirs",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-attrs",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-autocommand",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-babel",
+    "dependencies": [
+      "python",
+      "python-pytz"
+    ]
+  },
+  {
+    "package_name": "python-bcrypt",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-blinker",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-brotli",
+    "dependencies": [
+      "python",
+      "glibc",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "python-cachecontrol",
+    "dependencies": [
+      "python-msgpack",
+      "python-requests"
+    ]
+  },
+  {
+    "package_name": "python-cairo",
+    "dependencies": [
+      "cairo",
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-certifi",
+    "dependencies": [
+      "ca-certificates",
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-cffi",
+    "dependencies": [
+      "python-pycparser"
+    ]
+  },
+  {
+    "package_name": "python-chardet",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-click",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-colorama",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-commonmark",
+    "dependencies": [
+      "python-docutils",
+      "python-future"
+    ]
+  },
+  {
+    "package_name": "python-cryptography",
+    "dependencies": [
+      "python-cffi"
+    ]
+  },
+  {
+    "package_name": "python-dateutil",
+    "dependencies": [
+      "python-six"
+    ]
+  },
+  {
+    "package_name": "python-decorator",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-distlib",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-distro",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-dnspython",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-docopt",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-docutils",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-editor",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-email-validator",
+    "dependencies": [
+      "python-dnspython",
+      "python-idna"
+    ]
+  },
+  {
+    "package_name": "python-extras",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-fastjsonschema",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-fixtures",
+    "dependencies": [
+      "python-pbr",
+      "python-six",
+      "python-testtools"
+    ]
+  },
+  {
+    "package_name": "python-flask",
+    "dependencies": [
+      "python-werkzeug",
+      "python-jinja",
+      "python-itsdangerous",
+      "python-click"
+    ]
+  },
+  {
+    "package_name": "python-flask-babelex",
+    "dependencies": [
+      "python",
+      "python-flask",
+      "python-babel",
+      "python-speaklater",
+      "python-jinja"
+    ]
+  },
+  {
+    "package_name": "python-flask-compress",
+    "dependencies": [
+      "python",
+      "python-flask",
+      "python-brotli"
+    ]
+  },
+  {
+    "package_name": "python-flask-gravatar",
+    "dependencies": [
+      "python",
+      "python-flask"
+    ]
+  },
+  {
+    "package_name": "python-flask-login",
+    "dependencies": [
+      "python",
+      "python-flask",
+      "python-werkzeug"
+    ]
+  },
+  {
+    "package_name": "python-flask-mail",
+    "dependencies": [
+      "python",
+      "python-flask",
+      "python-blinker"
+    ]
+  },
+  {
+    "package_name": "python-flask-migrate",
+    "dependencies": [
+      "python",
+      "python-alembic",
+      "python-flask",
+      "python-flask-sqlalchemy"
+    ]
+  },
+  {
+    "package_name": "python-flask-paranoid",
+    "dependencies": [
+      "python",
+      "python-flask"
+    ]
+  },
+  {
+    "package_name": "python-flask-principal",
+    "dependencies": [
+      "python",
+      "python-flask"
+    ]
+  },
+  {
+    "package_name": "python-flask-security-too",
+    "dependencies": [
+      "python",
+      "python-flask",
+      "python-flask-login",
+      "python-flask-mail",
+      "python-flask-principal",
+      "python-flask-wtf",
+      "python-flask-babelex",
+      "python-itsdangerous",
+      "python-passlib",
+      "python-email-validator"
+    ]
+  },
+  {
+    "package_name": "python-flask-sqlalchemy",
+    "dependencies": [
+      "python-flask",
+      "python-sqlalchemy"
+    ]
+  },
+  {
+    "package_name": "python-flask-wtf",
+    "dependencies": [
+      "python-flask",
+      "python-wtforms",
+      "python-werkzeug"
+    ]
+  },
+  {
+    "package_name": "python-future",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-gobject",
+    "dependencies": [
+      "gobject-introspection-runtime",
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-greenlet",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-gssapi",
+    "dependencies": [
+      "python",
+      "python-decorator",
+      "krb5"
+    ]
+  },
+  {
+    "package_name": "python-idna",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-importlib-metadata",
+    "dependencies": [
+      "python-zipp"
+    ]
+  },
+  {
+    "package_name": "python-inflect",
+    "dependencies": [
+      "python",
+      "python-pydantic"
+    ]
+  },
+  {
+    "package_name": "python-itsdangerous",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-jaraco.context",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-jaraco.functools",
+    "dependencies": [
+      "python-more-itertools"
+    ]
+  },
+  {
+    "package_name": "python-jaraco.text",
+    "dependencies": [
+      "python",
+      "python-jaraco.functools",
+      "python-jaraco.context",
+      "python-autocommand",
+      "python-inflect",
+      "python-more-itertools"
+    ]
+  },
+  {
+    "package_name": "python-jinja",
+    "dependencies": [
+      "python-markupsafe"
+    ]
+  },
+  {
+    "package_name": "python-ldap3",
+    "dependencies": [
+      "python-pyasn1"
+    ]
+  },
+  {
+    "package_name": "python-mako",
+    "dependencies": [
+      "python-markupsafe"
+    ]
+  },
+  {
+    "package_name": "python-markdown-it-py",
+    "dependencies": [
+      "python-mdurl"
+    ]
+  },
+  {
+    "package_name": "python-markupsafe",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-mdurl",
+    "dependencies": [
+      "python-uc-micro-py"
+    ]
+  },
+  {
+    "package_name": "python-more-itertools",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-msgpack",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-npyscreen",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-nspektr",
+    "dependencies": [
+      "python-jaraco.context",
+      "python-jaraco.functools",
+      "python-more-itertools",
+      "python-packaging"
+    ]
+  },
+  {
+    "package_name": "python-ordered-set",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-packaging",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-paramiko",
+    "dependencies": [
+      "python-bcrypt",
+      "python-cryptography",
+      "python-pynacl"
+    ]
+  },
+  {
+    "package_name": "python-passlib",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-pbr",
+    "dependencies": [
+      "python-importlib-metadata",
+      "python-setuptools"
+    ]
+  },
+  {
+    "package_name": "python-pep517",
+    "dependencies": [
+      "python-tomli"
+    ]
+  },
+  {
+    "package_name": "python-pillow",
+    "dependencies": [
+      "python",
+      "freetype2",
+      "lcms2",
+      "libraqm",
+      "libtiff",
+      "openjpeg2",
+      "libimagequant",
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "python-pip",
+    "dependencies": [
+      "python",
+      "python-attrs",
+      "python-cryptography",
+      "python-wheel"
+    ]
+  },
+  {
+    "package_name": "python-platformdirs",
+    "dependencies": [
+      "python-typing_extensions"
+    ]
+  },
+  {
+    "package_name": "python-ply",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-psutil",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-psycopg2",
+    "dependencies": [
+      "python",
+      "postgresql-libs"
+    ]
+  },
+  {
+    "package_name": "python-pyasn1",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-pycparser",
+    "dependencies": [
+      "python-ply"
+    ]
+  },
+  {
+    "package_name": "python-pydantic",
+    "dependencies": [
+      "cython",
+      "python",
+      "python-typing-extensions"
+    ]
+  },
+  {
+    "package_name": "python-pygments",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-pynacl",
+    "dependencies": [
+      "libsodium",
+      "python",
+      "python-six",
+      "python-cffi"
+    ]
+  },
+  {
+    "package_name": "python-pyopenssl",
+    "dependencies": [
+      "python-cryptography"
+    ]
+  },
+  {
+    "package_name": "python-pyparsing",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-pytz",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-requests",
+    "dependencies": [
+      "python-urllib3",
+      "python-chardet",
+      "python-idna"
+    ]
+  },
+  {
+    "package_name": "python-resolvelib",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-rich",
+    "dependencies": [
+      "python-colorama",
+      "python-markdown-it-py",
+      "python-pygments"
+    ]
+  },
+  {
+    "package_name": "python-setuptools",
+    "dependencies": [
+      "python-jaraco.text",
+      "python-more-itertools",
+      "python-ordered-set",
+      "python-packaging",
+      "python-platformdirs",
+      "python-tomli",
+      "python-validate-pyproject"
+    ]
+  },
+  {
+    "package_name": "python-simplejson",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-six",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-speaklater",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-sqlalchemy1.3",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-sqlparse",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-sshtunnel",
+    "dependencies": [
+      "python",
+      "python-paramiko"
+    ]
+  },
+  {
+    "package_name": "python-tenacity",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-testtools",
+    "dependencies": [
+      "python-pbr",
+      "python-extras",
+      "python-fixtures"
+    ]
+  },
+  {
+    "package_name": "python-tomli",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-trove-classifiers",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-typing_extensions",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-uc-micro-py",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-urllib3",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-validate-pyproject",
+    "dependencies": [
+      "python-fastjsonschema",
+      "python-packaging",
+      "python-trove-classifiers",
+      "python-tomli"
+    ]
+  },
+  {
+    "package_name": "python-webencodings",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-werkzeug",
+    "dependencies": [
+      "python-markupsafe"
+    ]
+  },
+  {
+    "package_name": "python-wheel",
+    "dependencies": [
+      "python-packaging"
+    ]
+  },
+  {
+    "package_name": "python-wtforms",
+    "dependencies": [
+      "python",
+      "python-markupsafe"
+    ]
+  },
+  {
+    "package_name": "python-xlib",
+    "dependencies": [
+      "python-six"
+    ]
+  },
+  {
+    "package_name": "python-yaml",
+    "dependencies": [
+      "libyaml",
+      "python"
+    ]
+  },
+  {
+    "package_name": "python-zipp",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "qt5-base",
+    "dependencies": [
+      "libjpeg-turbo",
+      "xcb-util-keysyms",
+      "xcb-util-renderutil",
+      "libgl",
+      "fontconfig",
+      "xdg-utils",
+      "shared-mime-info",
+      "xcb-util-wm",
+      "libxrender",
+      "libxi",
+      "sqlite",
+      "xcb-util-image",
+      "mesa",
+      "tslib",
+      "libinput",
+      "libxkbcommon-x11",
+      "libproxy",
+      "libcups",
+      "double-conversion",
+      "md4c",
+      "qt5-translations"
+    ]
+  },
+  {
+    "package_name": "qt5-svg",
+    "dependencies": [
+      "qt5-base"
+    ]
+  },
+  {
+    "package_name": "qt5-translations"
+  },
+  {
+    "package_name": "qt5-x11extras",
+    "dependencies": [
+      "qt5-base"
+    ]
+  },
+  {
+    "package_name": "qt5ct",
+    "dependencies": [
+      "qt5-svg"
+    ]
+  },
+  {
+    "package_name": "ranger",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "rav1e",
+    "dependencies": [
+      "gcc-libs",
+      "glibc",
+      "libgit2.so"
+    ]
+  },
+  {
+    "package_name": "re2",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "readline",
+    "dependencies": [
+      "glibc",
+      "ncurses",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "reiserfsprogs",
+    "dependencies": [
+      "util-linux"
+    ]
+  },
+  {
+    "package_name": "rest",
+    "dependencies": [
+      "glib2",
+      "libxml2",
+      "libsoup",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so",
+      "libxml2.so",
+      "libsoup-2.4.so",
+      "libsoup-gnome-2.4.so"
+    ]
+  },
+  {
+    "package_name": "rhash",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "rpcbind",
+    "dependencies": [
+      "bash",
+      "glibc",
+      "libtirpc",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "rsync",
+    "dependencies": [
+      "acl",
+      "libacl.so",
+      "lz4",
+      "openssl",
+      "popt",
+      "xxhash",
+      "libxxhash.so",
+      "zlib",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "rtkit",
+    "dependencies": [
+      "dbus",
+      "polkit",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "run-parts",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "runc",
+    "dependencies": [
+      "libseccomp"
+    ]
+  },
+  {
+    "package_name": "rxvt-unicode",
+    "dependencies": [
+      "rxvt-unicode-terminfo",
+      "libxft",
+      "perl",
+      "startup-notification",
+      "libnsl",
+      "libptytty",
+      "libxext"
+    ]
+  },
+  {
+    "package_name": "rxvt-unicode-terminfo"
+  },
+  {
+    "package_name": "s-nail",
+    "dependencies": [
+      "openssl",
+      "krb5",
+      "libidn2"
+    ]
+  },
+  {
+    "package_name": "sbxkb",
+    "dependencies": [
+      "gtk2"
+    ]
+  },
+  {
+    "package_name": "screenfetch",
+    "dependencies": [
+      "bash",
+      "bc",
+      "xorg-xdpyinfo",
+      "xorg-xprop"
+    ]
+  },
+  {
+    "package_name": "scrot",
+    "dependencies": [
+      "imlib2",
+      "libxext",
+      "libxinerama",
+      "libxfixes",
+      "libxcomposite",
+      "libbsd"
+    ]
+  },
+  {
+    "package_name": "sdl2",
+    "dependencies": [
+      "glibc",
+      "libxext",
+      "libxrender",
+      "libx11",
+      "libgl",
+      "libxcursor",
+      "hidapi",
+      "libusb"
+    ]
+  },
+  {
+    "package_name": "sed",
+    "dependencies": [
+      "glibc",
+      "acl",
+      "attr"
+    ]
+  },
+  {
+    "package_name": "semver",
+    "dependencies": [
+      "nodejs"
+    ]
+  },
+  {
+    "package_name": "shadow",
+    "dependencies": [
+      "acl",
+      "libacl.so",
+      "attr",
+      "libattr.so",
+      "audit",
+      "libaudit.so",
+      "glibc",
+      "libxcrypt",
+      "libcrypt.so",
+      "pam",
+      "libpam.so",
+      "libpam_misc.so"
+    ]
+  },
+  {
+    "package_name": "shared-mime-info",
+    "dependencies": [
+      "libxml2",
+      "glib2"
+    ]
+  },
+  {
+    "package_name": "slang",
+    "dependencies": [
+      "pcre"
+    ]
+  },
+  {
+    "package_name": "smbclient",
+    "dependencies": [
+      "popt",
+      "cifs-utils",
+      "tdb",
+      "ldb",
+      "tevent",
+      "libgcrypt",
+      "python",
+      "talloc",
+      "readline",
+      "gnutls",
+      "libbsd",
+      "libldap",
+      "libcups",
+      "libarchive",
+      "libnsl",
+      "jansson",
+      "libldb.so",
+      "libtdb.so",
+      "libtevent.so",
+      "libreadline.so",
+      "icu",
+      "libunwind",
+      "libwbclient"
+    ]
+  },
+  {
+    "package_name": "snapd",
+    "dependencies": [
+      "squashfs-tools",
+      "libseccomp",
+      "libsystemd",
+      "apparmor"
+    ]
+  },
+  {
+    "package_name": "snappy",
+    "dependencies": [
+      "glibc",
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "sof-firmware"
+  },
+  {
+    "package_name": "sound-theme-freedesktop"
+  },
+  {
+    "package_name": "spectre-meltdown-checker",
+    "dependencies": [
+      "sh",
+      "sqlite"
+    ]
+  },
+  {
+    "package_name": "speedtest-cli",
+    "dependencies": [
+      "python"
+    ]
+  },
+  {
+    "package_name": "speex",
+    "dependencies": [
+      "gcc-libs",
+      "libogg",
+      "speexdsp",
+      "libogg.so",
+      "libspeexdsp.so"
+    ]
+  },
+  {
+    "package_name": "speexdsp",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "sqlite",
+    "dependencies": [
+      "readline",
+      "zlib"
+    ]
+  },
+  {
+    "package_name": "squashfs-tools",
+    "dependencies": [
+      "lz4",
+      "lzo",
+      "xz",
+      "zlib",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "srt",
+    "dependencies": [
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "startup-notification",
+    "dependencies": [
+      "libx11",
+      "xcb-util"
+    ]
+  },
+  {
+    "package_name": "stoken",
+    "dependencies": [
+      "nettle",
+      "libxml2"
+    ]
+  },
+  {
+    "package_name": "sublime-merge",
+    "dependencies": [
+      "gtk3",
+      "libcurl.so"
+    ]
+  },
+  {
+    "package_name": "sudo",
+    "dependencies": [
+      "glibc",
+      "openssl",
+      "pam",
+      "libldap",
+      "zlib",
+      "libcrypto.so",
+      "libssl.so"
+    ]
+  },
+  {
+    "package_name": "svt-av1",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "sysfsutils",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "syslog-ng",
+    "dependencies": [
+      "awk",
+      "systemd-libs",
+      "glib2",
+      "libnsl",
+      "json-c",
+      "curl",
+      "libnet",
+      "openssl"
+    ]
+  },
+  {
+    "package_name": "systemd",
+    "dependencies": [
+      "acl",
+      "libacl.so",
+      "bash",
+      "cryptsetup",
+      "libcryptsetup.so",
+      "dbus",
+      "iptables",
+      "kbd",
+      "kmod",
+      "libkmod.so",
+      "hwdata",
+      "libcap",
+      "libcap.so",
+      "libgcrypt",
+      "libxcrypt",
+      "libcrypt.so",
+      "systemd-libs",
+      "libidn2",
+      "lz4",
+      "pam",
+      "libelf",
+      "libseccomp",
+      "libseccomp.so",
+      "util-linux",
+      "libblkid.so",
+      "libmount.so",
+      "xz",
+      "pcre2",
+      "audit",
+      "libaudit.so",
+      "libp11-kit",
+      "libp11-kit.so",
+      "openssl",
+      "libcrypto.so",
+      "libssl.so"
+    ]
+  },
+  {
+    "package_name": "systemd-fsck-silent",
+    "dependencies": [
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "systemd-libs",
+    "dependencies": [
+      "glibc",
+      "libcap",
+      "libgcrypt",
+      "libp11-kit",
+      "lz4",
+      "xz",
+      "zstd"
+    ]
+  },
+  {
+    "package_name": "systemd-sysvcompat",
+    "dependencies": [
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "talloc",
+    "dependencies": [
+      "glibc",
+      "libxcrypt"
+    ]
+  },
+  {
+    "package_name": "tar",
+    "dependencies": [
+      "glibc",
+      "acl",
+      "attr"
+    ]
+  },
+  {
+    "package_name": "tdb",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "tepl",
+    "dependencies": [
+      "amtk",
+      "gtksourceview4",
+      "uchardet",
+      "libamtk-5.so",
+      "libgtksourceview-4.so",
+      "libgdk-3.so",
+      "libgtk-3.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "terminus-font"
+  },
+  {
+    "package_name": "tevent",
+    "dependencies": [
+      "talloc"
+    ]
+  },
+  {
+    "package_name": "texinfo",
+    "dependencies": [
+      "ncurses",
+      "gzip",
+      "perl",
+      "sh"
+    ]
+  },
+  {
+    "package_name": "thin-provisioning-tools",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "tinyxml2"
+  },
+  {
+    "package_name": "totem-pl-parser",
+    "dependencies": [
+      "glib2",
+      "libxml2",
+      "libarchive",
+      "libgcrypt"
+    ]
+  },
+  {
+    "package_name": "tpm2-tss",
+    "dependencies": [
+      "curl",
+      "json-c",
+      "openssl",
+      "libjson-c.so"
+    ]
+  },
+  {
+    "package_name": "tracker3",
+    "dependencies": [
+      "glib2",
+      "icu",
+      "json-glib",
+      "libsoup3",
+      "libstemmer",
+      "libxml2",
+      "sqlite"
+    ]
+  },
+  {
+    "package_name": "tracker3-miners",
+    "dependencies": [
+      "exempi",
+      "giflib",
+      "gst-plugins-base-libs",
+      "gupnp-dlna",
+      "libcue",
+      "libexif",
+      "libgexiv2",
+      "libgrss",
+      "libgsf",
+      "libgxps",
+      "libiptcdata",
+      "libnm",
+      "libosinfo",
+      "libseccomp",
+      "poppler-glib",
+      "totem-plparser",
+      "tracker3",
+      "upower",
+      "libtracker-sparql-3.0.so"
+    ]
+  },
+  {
+    "package_name": "tree",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "tree-sitter",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "tslib",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "ttf-bitstream-vera"
+  },
+  {
+    "package_name": "ttf-dejavu"
+  },
+  {
+    "package_name": "ttf-font-icons",
+    "dependencies": [
+      "fontconfig"
+    ]
+  },
+  {
+    "package_name": "ttf-liberation"
+  },
+  {
+    "package_name": "ttf-noto-nerd"
+  },
+  {
+    "package_name": "ttf-terminus-nerd"
+  },
+  {
+    "package_name": "tzdata"
+  },
+  {
+    "package_name": "uchardet",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "udisks2",
+    "dependencies": [
+      "polkit",
+      "libatasmart",
+      "libgudev",
+      "libblockdev"
+    ]
+  },
+  {
+    "package_name": "ueberzug",
+    "dependencies": [
+      "libxext",
+      "python-attrs",
+      "python-docopt",
+      "python-pillow",
+      "python-xlib"
+    ]
+  },
+  {
+    "package_name": "ufw",
+    "dependencies": [
+      "iptables",
+      "python"
+    ]
+  },
+  {
+    "package_name": "unibilium",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "unzip",
+    "dependencies": [
+      "bzip2",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "upower",
+    "dependencies": [
+      "libgudev",
+      "libimobiledevice",
+      "systemd",
+      "usbmuxd",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "urxvt-perls",
+    "dependencies": [
+      "rxvt-unicode",
+      "perl",
+      "xsel"
+    ]
+  },
+  {
+    "package_name": "usbmuxd",
+    "dependencies": [
+      "libimobiledevice",
+      "libusb",
+      "libplist"
+    ]
+  },
+  {
+    "package_name": "usbutils",
+    "dependencies": [
+      "glibc",
+      "hwdata",
+      "libusb",
+      "libusb-1.0.so",
+      "systemd-libs",
+      "libudev.so"
+    ]
+  },
+  {
+    "package_name": "util-linux",
+    "dependencies": [
+      "pam",
+      "shadow",
+      "coreutils",
+      "systemd-libs",
+      "libsystemd.so",
+      "libudev.so",
+      "libcap-ng",
+      "libxcrypt",
+      "libcrypt.so",
+      "util-linux-libs",
+      "libmagic.so",
+      "libncursesw.so"
+    ]
+  },
+  {
+    "package_name": "util-linux-libs"
+  },
+  {
+    "package_name": "v4l-utils",
+    "dependencies": [
+      "hicolor-icon-theme",
+      "gcc-libs",
+      "sysfsutils",
+      "libjpeg-turbo"
+    ]
+  },
+  {
+    "package_name": "v86d",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "vi",
+    "dependencies": [
+      "ncurses"
+    ]
+  },
+  {
+    "package_name": "vid.stab",
+    "dependencies": [
+      "gcc-libs",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "viewnior",
+    "dependencies": [
+      "gtk2",
+      "exiv2"
+    ]
+  },
+  {
+    "package_name": "vim",
+    "dependencies": [
+      "vim-runtime",
+      "gpm",
+      "acl",
+      "glibc",
+      "libgcrypt",
+      "zlib",
+      "perl"
+    ]
+  },
+  {
+    "package_name": "vim-runtime"
+  },
+  {
+    "package_name": "vmaf",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "volume_key",
+    "dependencies": [
+      "cryptsetup",
+      "nss",
+      "gpgme"
+    ]
+  },
+  {
+    "package_name": "volumeicon",
+    "dependencies": [
+      "alsa-lib",
+      "gtk3",
+      "libnotify"
+    ]
+  },
+  {
+    "package_name": "vpnc",
+    "dependencies": [
+      "libgcrypt",
+      "openssl",
+      "iproute2",
+      "which"
+    ]
+  },
+  {
+    "package_name": "vulkan-icd-loader",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "vulkan-intel",
+    "dependencies": [
+      "wayland",
+      "libx11",
+      "libxshmfence",
+      "libdrm",
+      "zstd",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "vulkan-radeon",
+    "dependencies": [
+      "wayland",
+      "libx11",
+      "libxshmfence",
+      "libelf",
+      "libdrm",
+      "llvm-libs",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "w3m",
+    "dependencies": [
+      "openssl",
+      "gc",
+      "ncurses",
+      "gpm"
+    ]
+  },
+  {
+    "package_name": "wayland",
+    "dependencies": [
+      "glibc",
+      "libffi",
+      "expat",
+      "libxml2",
+      "default-cursors"
+    ]
+  },
+  {
+    "package_name": "webkit2gtk-4.1",
+    "dependencies": [
+      "at-spi2-core",
+      "atk",
+      "bubblewrap",
+      "cairo",
+      "enchant",
+      "fontconfig",
+      "freetype2",
+      "glib2",
+      "gst-plugins-base-libs",
+      "gstreamer",
+      "gtk3",
+      "harfbuzz",
+      "harfbuzz-icu",
+      "hyphen",
+      "icu",
+      "libavif",
+      "libegl",
+      "libgcrypt",
+      "libgl",
+      "libgles",
+      "libice",
+      "libjpeg",
+      "libmanette",
+      "libnotify",
+      "libpng",
+      "libseccomp",
+      "libsecret",
+      "libsoup3",
+      "libsystemd",
+      "libtasn1",
+      "libwebp",
+      "libwpe",
+      "libx11",
+      "libxext",
+      "libxml2",
+      "libxslt",
+      "libxt",
+      "openjpeg2",
+      "sqlite",
+      "wayland",
+      "woff2",
+      "wpebackend-fdo",
+      "xdg-dbus-proxy",
+      "zlib",
+      "libwpe-1.0.so",
+      "libWPEBackend-fdo-1.0.so"
+    ]
+  },
+  {
+    "package_name": "webrtc-audio-processing",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "wget",
+    "dependencies": [
+      "glibc",
+      "zlib",
+      "gnutls",
+      "libidn2",
+      "libidn2.so",
+      "util-linux-libs",
+      "libuuid.so",
+      "libpsl",
+      "libpsl.so",
+      "pcre2",
+      "nettle",
+      "libnettle.so"
+    ]
+  },
+  {
+    "package_name": "which",
+    "dependencies": [
+      "glibc",
+      "bash"
+    ]
+  },
+  {
+    "package_name": "wireless-regdb",
+    "dependencies": [
+      "bash",
+      "iw"
+    ]
+  },
+  {
+    "package_name": "wireless_tools"
+  },
+  {
+    "package_name": "wmutils",
+    "dependencies": [
+      "libxcb",
+      "xcb-util",
+      "xcb-util-cursor",
+      "xcb-util-wm"
+    ]
+  },
+  {
+    "package_name": "woff2",
+    "dependencies": [
+      "brotli"
+    ]
+  },
+  {
+    "package_name": "wpa_supplicant",
+    "dependencies": [
+      "openssl",
+      "libdbus",
+      "readline",
+      "libnl",
+      "pcsclite"
+    ]
+  },
+  {
+    "package_name": "wpebackend-fdo",
+    "dependencies": [
+      "libwpe",
+      "glib2",
+      "libegl",
+      "wayland",
+      "libepoxy",
+      "libwpe-1.0.so",
+      "libglib-2.0.so",
+      "libgobject-2.0.so",
+      "libgio-2.0.so"
+    ]
+  },
+  {
+    "package_name": "x264",
+    "dependencies": [
+      "liblsmash.so"
+    ]
+  },
+  {
+    "package_name": "x265",
+    "dependencies": [
+      "gcc-libs"
+    ]
+  },
+  {
+    "package_name": "xautolock",
+    "dependencies": [
+      "libxss"
+    ]
+  },
+  {
+    "package_name": "xbitmaps"
+  },
+  {
+    "package_name": "xcb-proto"
+  },
+  {
+    "package_name": "xcb-util",
+    "dependencies": [
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "xcb-util-cursor",
+    "dependencies": [
+      "libxcb",
+      "xcb-util-renderutil",
+      "xcb-util-image"
+    ]
+  },
+  {
+    "package_name": "xcb-util-image",
+    "dependencies": [
+      "libxcb",
+      "xcb-util"
+    ]
+  },
+  {
+    "package_name": "xcb-util-keysyms",
+    "dependencies": [
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "xcb-util-renderutil",
+    "dependencies": [
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "xcb-util-wm",
+    "dependencies": [
+      "libxcb"
+    ]
+  },
+  {
+    "package_name": "xcb-util-xrm",
+    "dependencies": [
+      "xcb-util"
+    ]
+  },
+  {
+    "package_name": "xclip",
+    "dependencies": [
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xcursor-breeze",
+    "dependencies": [
+      "libxcursor"
+    ]
+  },
+  {
+    "package_name": "xdg-dbus-proxy",
+    "dependencies": [
+      "glib2",
+      "dbus"
+    ]
+  },
+  {
+    "package_name": "xdg-user-dirs",
+    "dependencies": [
+      "sh",
+      "systemd"
+    ]
+  },
+  {
+    "package_name": "xdg-utils",
+    "dependencies": [
+      "sh",
+      "file",
+      "xorg-xset",
+      "xorg-xprop"
+    ]
+  },
+  {
+    "package_name": "xdotool",
+    "dependencies": [
+      "libxtst",
+      "libxinerama",
+      "libxkbcommon"
+    ]
+  },
+  {
+    "package_name": "xf86-input-elographics",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xf86-input-evdev",
+    "dependencies": [
+      "systemd-libs",
+      "mtdev",
+      "libevdev"
+    ]
+  },
+  {
+    "package_name": "xf86-input-libinput",
+    "dependencies": [
+      "libinput"
+    ]
+  },
+  {
+    "package_name": "xf86-input-void",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xf86-video-amdgpu",
+    "dependencies": [
+      "systemd-libs",
+      "mesa"
+    ]
+  },
+  {
+    "package_name": "xf86-video-ati",
+    "dependencies": [
+      "systemd-libs",
+      "mesa"
+    ]
+  },
+  {
+    "package_name": "xf86-video-intel",
+    "dependencies": [
+      "mesa",
+      "libxvmc",
+      "pixman",
+      "xcb-util",
+      "systemd-libs"
+    ]
+  },
+  {
+    "package_name": "xf86-video-nouveau",
+    "dependencies": [
+      "systemd-libs",
+      "mesa"
+    ]
+  },
+  {
+    "package_name": "xfce4-notifyd",
+    "dependencies": [
+      "libxfce4ui",
+      "libnotify",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "xfce4-panel",
+    "dependencies": [
+      "exo",
+      "garcon",
+      "libxfce4ui",
+      "xfconf",
+      "libwnck3",
+      "libdbusmenu-gtk3",
+      "hicolor-icon-theme",
+      "desktop-file-utils"
+    ]
+  },
+  {
+    "package_name": "xfce4-power-manager",
+    "dependencies": [
+      "libxfce4ui",
+      "upower",
+      "libnotify",
+      "xfce4-notifyd",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "xfce4-screenshooter",
+    "dependencies": [
+      "xfce4-panel",
+      "libsoup3",
+      "hicolor-icon-theme"
+    ]
+  },
+  {
+    "package_name": "xfconf",
+    "dependencies": [
+      "libxfce4util"
+    ]
+  },
+  {
+    "package_name": "xfsprogs",
+    "dependencies": [
+      "sh",
+      "util-linux-libs",
+      "device-mapper",
+      "libinih",
+      "liburcu"
+    ]
+  },
+  {
+    "package_name": "xkeyboard-config"
+  },
+  {
+    "package_name": "xmlsec",
+    "dependencies": [
+      "libxslt",
+      "openssl",
+      "gnutls",
+      "nss",
+      "libltdl"
+    ]
+  },
+  {
+    "package_name": "xorg-bdftopcf",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xorg-font-util",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xorg-fonts-alias-misc"
+  },
+  {
+    "package_name": "xorg-fonts-encodings"
+  },
+  {
+    "package_name": "xorg-fonts-misc",
+    "dependencies": [
+      "xorg-fonts-alias-misc"
+    ]
+  },
+  {
+    "package_name": "xorg-mkfontscale",
+    "dependencies": [
+      "freetype2",
+      "libfontenc"
+    ]
+  },
+  {
+    "package_name": "xorg-server",
+    "dependencies": [
+      "libepoxy",
+      "libxfont2",
+      "pixman",
+      "xorg-server-common",
+      "libunwind",
+      "dbus",
+      "libgl",
+      "xf86-input-libinput",
+      "nettle",
+      "libpciaccess",
+      "libdrm",
+      "libxshmfence",
+      "libxcvt"
+    ]
+  },
+  {
+    "package_name": "xorg-server-common",
+    "dependencies": [
+      "xkeyboard-config",
+      "xorg-xkbcomp",
+      "xorg-setxkbmap"
+    ]
+  },
+  {
+    "package_name": "xorg-setxkbmap",
+    "dependencies": [
+      "libxkbfile",
+      "xorg-xrandr"
+    ]
+  },
+  {
+    "package_name": "xorg-twm",
+    "dependencies": [
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorg-xauth",
+    "dependencies": [
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorg-xdpyinfo",
+    "dependencies": [
+      "libx11",
+      "libxext",
+      "libxtst",
+      "libxxf86vm",
+      "libxrender",
+      "libxcomposite",
+      "libxinerama"
+    ]
+  },
+  {
+    "package_name": "xorg-xhost",
+    "dependencies": [
+      "libx11",
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorg-xinit",
+    "dependencies": [
+      "libx11",
+      "xorg-xauth",
+      "xorg-xrdb",
+      "xorg-xmodmap"
+    ]
+  },
+  {
+    "package_name": "xorg-xinput",
+    "dependencies": [
+      "libx11",
+      "libxi",
+      "xorg-xrandr",
+      "libxinerama"
+    ]
+  },
+  {
+    "package_name": "xorg-xkbcomp",
+    "dependencies": [
+      "libxkbfile"
+    ]
+  },
+  {
+    "package_name": "xorg-xkill",
+    "dependencies": [
+      "libx11",
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorg-xmodmap",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "xorg-xprop",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "xorg-xrandr",
+    "dependencies": [
+      "libxrandr",
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "xorg-xrdb",
+    "dependencies": [
+      "libx11",
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorg-xset",
+    "dependencies": [
+      "libxmu"
+    ]
+  },
+  {
+    "package_name": "xorgproto"
+  },
+  {
+    "package_name": "xsel",
+    "dependencies": [
+      "libx11"
+    ]
+  },
+  {
+    "package_name": "xterm",
+    "dependencies": [
+      "libxft",
+      "libxaw",
+      "ncurses",
+      "luit",
+      "xbitmaps",
+      "libutempter",
+      "libxkbfile"
+    ]
+  },
+  {
+    "package_name": "xvidcore",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xxhash",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "xz",
+    "dependencies": [
+      "sh"
+    ]
+  },
+  {
+    "package_name": "yajl",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "yay",
+    "dependencies": [
+      "pacman",
+      "git"
+    ]
+  },
+  {
+    "package_name": "zenity",
+    "dependencies": [
+      "webkit2gtk-4.1",
+      "libnotify"
+    ]
+  },
+  {
+    "package_name": "zensu"
+  },
+  {
+    "package_name": "zeromq",
+    "dependencies": [
+      "gcc-libs",
+      "util-linux",
+      "libsodium",
+      "libpgm"
+    ]
+  },
+  {
+    "package_name": "zimg",
+    "dependencies": [
+      "gcc-libs",
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "zip",
+    "dependencies": [
+      "bzip2"
+    ]
+  },
+  {
+    "package_name": "zlib",
+    "dependencies": [
+      "glibc"
+    ]
+  },
+  {
+    "package_name": "zsh",
+    "dependencies": [
+      "pcre",
+      "libcap",
+      "gdbm"
+    ]
+  },
+  {
+    "package_name": "zsh-autosuggestions",
+    "dependencies": [
+      "zsh"
+    ]
+  },
+  {
+    "package_name": "zsh-completions",
+    "dependencies": [
+      "zsh"
+    ]
+  },
+  {
+    "package_name": "zsh-history-substring-search",
+    "dependencies": [
+      "zsh"
+    ]
+  },
+  {
+    "package_name": "zsh-syntax-highlighting",
+    "dependencies": [
+      "zsh"
+    ]
+  },
+  {
+    "package_name": "zsh-theme-powerlevel10k",
+    "dependencies": [
+      "glibc",
+      "zsh"
+    ]
+  },
+  {
+    "package_name": "zstd",
+    "dependencies": [
+      "glibc",
+      "gcc-libs",
+      "zlib",
+      "xz",
+      "lz4"
+    ]
+  }
+]
