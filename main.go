@@ -1,42 +1,58 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
+	"mnemo/gitwrapper"
 	"os"
-	"strconv"
 	"strings"
 )
 
 type Node struct {
-	PackageName  string   `json:"package_name"`
-	Dependencies []string `json:"dependencies,omitempty"`
+	PackageName  string
+	Dependencies []string
 }
 
 func main() {
+	gitwrapper.GitInit()
+	defer gitwrapper.GitShutdown()
+
 	var nodes []Node
 	err := parsePackageTree("/var/lib/pacman/local", &nodes)
 	if err != nil {
 		panic(err)
 	}
-	var showOnly int
-	if len(os.Args) != 1 {
-		showOnly, err = strconv.Atoi(os.Args[1])
-		if err != nil {
-			panic(err)
+	// shitty but works
+	toInstall := evaluateNodesToInstall(&nodes)
+	fmt.Println(toInstall)
+}
+
+func evaluateNodesToInstall(nodes *[]Node) []string {
+	var toInstall []string
+	for i := range *nodes {
+		if isCoveredDependency(nodes, (*nodes)[i].PackageName) {
+			continue
+		}
+		toInstall = append(toInstall, (*nodes)[i].PackageName)
+	}
+	return toInstall
+}
+
+func isCoveredDependency(nodes *[]Node, packageName string) bool {
+	for i := range *nodes {
+		if contains(&(*nodes)[i].Dependencies, packageName) {
+			return true
 		}
 	}
-	displayNodes := nodes
-	if showOnly != 0 {
-		displayNodes = nodes[:showOnly]
-	}
+	return false
+}
 
-	jsonDisplayNodes, err := json.Marshal(displayNodes)
-	if err != nil {
-		panic(err)
+func contains(sarr *[]string, s string) bool {
+	for i := range *sarr {
+		if s == (*sarr)[i] {
+			return true
+		}
 	}
-
-	fmt.Println(string(jsonDisplayNodes))
+	return false
 }
 
 func parsePackageTree(folder string, nodes *[]Node) (err error) {
