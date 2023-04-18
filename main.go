@@ -1,10 +1,18 @@
 package main
 
 import (
-	"fmt"
-	"mnemo/gitwrapper"
+	"errors"
+	"io/ioutil"
+	"log"
 	"os"
 	"strings"
+
+	"gopkg.in/fsnotify.v1"
+)
+
+const (
+	packageManagerFolder = "MNEMO_PACKAGE_MANAGER_FOLDER"
+	ansibleFilePath      = "MNEMO_ANSIBLE_FILE"
 )
 
 type Node struct {
@@ -13,17 +21,67 @@ type Node struct {
 }
 
 func main() {
-	gitwrapper.GitInit()
-	defer gitwrapper.GitShutdown()
-
-	var nodes []Node
-	err := parsePackageTree("/var/lib/pacman/local", &nodes)
+	configPool, err := configLookup(packageManagerFolder, ansibleFilePath)
 	if err != nil {
 		panic(err)
 	}
-	// shitty but works
-	toInstall := evaluateNodesToInstall(&nodes)
-	fmt.Println(toInstall)
+
+	watcher, err := fsnotify.NewWatcher()
+	if err != nil {
+		panic(err)
+	}
+	defer watcher.Close()
+
+	if err = watcher.Add(configPool[packageManagerFolder]); err != nil {
+		panic(err)
+	}
+
+	for {
+		select {
+		case ev := <-watcher.Events:
+			log.Println(ev)
+			if ev.Op == fsnotify.Create || ev.Op == fsnotify.Remove {
+				var nodes []Node
+				if err = parsePackageTree(configPool[packageManagerFolder], &nodes); err != nil {
+					panic(err)
+				}
+
+				nodesToInstall := evaluateNodesToInstall(&nodes)
+
+				if err = writeFinalAnsibleFile(configPool, buildFile(&nodesToInstall)); err != nil {
+					panic(err)
+				}
+			}
+		case evErr := <-watcher.Errors:
+			log.Println(evErr)
+		}
+	}
+
+}
+
+func writeFinalAnsibleFile(configPool map[string]string, fileContent []byte) error {
+	f := []byte("- hosts: localhost\n  become: true\n  tasks:\n")
+	f = append(f, fileContent...)
+	return ioutil.WriteFile(configPool[ansibleFilePath], f, 0644)
+}
+
+func buildFile(nodesToInstall *[]string) (fileContent []byte) {
+	for i := range *nodesToInstall {
+		fileContent = append(fileContent, []byte("  - name: "+(*nodesToInstall)[i]+"\n    pacman: name="+(*nodesToInstall)[i]+"\n")...)
+	}
+	return
+}
+
+func configLookup(envs ...string) (map[string]string, error) {
+	envsLookupTable := make(map[string]string)
+	for i := range envs {
+		env, ok := os.LookupEnv(envs[i])
+		if !ok {
+			return nil, errors.New(envs[i] + " not found")
+		}
+		envsLookupTable[envs[i]] = env
+	}
+	return envsLookupTable, nil
 }
 
 func evaluateNodesToInstall(nodes *[]Node) []string {
